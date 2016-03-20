@@ -57,15 +57,136 @@ body {
   font-size: 2em;
 }
 
+.navfont {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 500;
+  font-size: 1.2em;
+}
+
 #about {
   height: 43vw;
   background-color: #eaeaea;
 }
 
-@media (max-width:990px) {
-  #about {
-    height: 190vw;
-  }
+/*===============================================================
+MEDIA QUERY DEVICE BREAKPOINTS
+===============================================================*/
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+#about {height:280vw;}
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width : 321px) {
+#about {height: 106vw;}
+}
+
+/*==================ADDED BY JOEL=======================*/
+@media only screen and (max-width : 900px) {
+#about {
+height: 1280px;}
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+#about {height:280vw;}
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+#about {height:280vw;}
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+#about {height:280vw;}
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+#about {height:280vw;}
+}
+/**********
+iPad 3
+**********/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+#about {height:280vw;}
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+#about {height:280vw;}
+}
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1224px) {
+#about {height:46vw;}
+}
+
+/* Large screens ----------- */
+@media only screen  and (min-width : 1824px) {
+#about {height:280vw;}
+}
+
+/* iPhone 4 ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+#about {height:280vw;}
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+#about {height:280vw;}
+}
+
+/* iPhone 5 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+#about {height:280vw;}
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+#about {height:280vw;}
+}
+
+/* iPhone 6 ----------- */
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+#about {height:280vw;}
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+#about {height:280vw;}
+}
+
+/* iPhone 6+ ----------- */
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+#about {height:280vw;}
+}
+
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+#about {height:280vw;}
+}
+
+/* Samsung Galaxy S3 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+#about {height:280vw;}
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+#about {height:280vw;}
+}
+
+/* Samsung Galaxy S4 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+#about {height:280vw;}
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+#about {height:280vw;}
+}
+
+/* Samsung Galaxy S5 ----------- */
+@media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+#about {height:280vw;}
+}
+
+@media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+#about {height:280vw;}
 }
 
 .abouttext {
@@ -128,10 +249,11 @@ body {
 #masaspic {
   background: url(http://joelps.com/assets/img/masatoshiportrait.jpg) no-repeat center top;
   vertical-align: middle;
-  margin-top: 110px;
-  margin-bottom: 30px;
-  margin-right: auto;
-  margin-left: 100px;
+  /* margin-top: 110px; */
+  /* margin-bottom: 30px; */
+  /* margin-right: auto; */
+  /* margin-left: 100px; */
+  margin: 80px auto;
   height: 300px;
   width: 300px;
   border: none;
