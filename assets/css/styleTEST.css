@@ -1,0 +1,1127 @@
+
+/* ==========================================================================
+   Base Styles, Bootstrap Modifications & Fonts Import
+   ========================================================================== */
+
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+::-moz-selection {
+    background: #f2c2c9;
+    color: #a4003a;
+    text-shadow: none;
+}
+
+::selection {
+    background: #537e8e;
+    color: #a4003a;
+    text-shadow: none;
+}
+
+
+/*
+ * A better looking default horizontal rule
+ */
+
+ hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #BBB;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.rule {
+  padding-bottom: 50px;
+  border-bottom: 1px solid #BBB;
+  width: 50%;
+  margin: 50px auto;
+}
+
+.centered {
+  text-align: center
+}
+
+.mt {
+  /*margin-top: 100px;*/
+  margin-bottom: 50px;
+}
+
+.mb {
+  margin-bottom: 100px;
+  /* margin-left: 30px; */
+  /* margin-right: 30px; */
+}
+
+.row-centered {
+  text-align:center;
+}
+
+col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+
+/* ==========================================================================
+   General styles
+   ========================================================================== */
+
+
+body {
+  font-family: 'Oswald', sans-serif;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+}
+
+h1, h3, h4, h5, h6 {
+  font-weight: 700;
+  color: #4a4a4a;
+  font-size:18px;
+}
+
+h2 {
+  color: #4a4a4a;
+  font-size: 24px;
+  font-weight: 700;
+
+}
+
+.mailto {
+  transition: all 0.2s ease;  
+}
+
+.mailto:hover{
+  color:#fff;
+  text-decoration: none;
+}
+
+.tagline{
+  color:#FFF;
+  margin-top: 10px;
+  letter-spacing: .25rem;
+  text-shadow: 2px 2px #cbcbcb;
+}
+
+.about {
+  margin: 0 auto;
+  width: 60%;
+  padding: 50px 0 0 0;
+  line-height: 1.5em;
+  font-family:'Fira Sans', sans-serif;
+  font-weight: 300;
+  text-align: center;
+  /*font-family: 'Oswald', sans-serif;
+  font-weight: 200;*/
+  background-color:#f7f7f7;
+}
+
+@media (max-width: 600px){
+  .about {
+    width:90%;
+    background-color:#f7f7f7;
+  }
+}
+
+#aboutbody {
+  background-color: #f7f7f7;
+}
+
+.resume {
+  margin: 0 auto;
+  width:60%;
+  padding: 30px 0 80px 0;
+  line-height: 1.5em;
+  font-family:'Fira Sans', sans-serif;
+  font-weight: 300; 
+  text-align: center;
+  /*font-family: 'Oswald', sans-serif;
+  font-weight: 200;*/
+}
+
+.container h4 {
+/*  margin-bottom: 30px;*/
+}
+
+.logo {
+  width: auto;
+  height:auto;
+  max-width: 300px;
+  max-height: 300px;
+  margin: 40px 0px 0 0;
+  padding-bottom: 10px;
+  line-height: 1em;
+  -webkit-filter: drop-shadow( 4px 4px 0px #cbcbcb );
+  filter: drop-shadow( 4px 4px 0px #cbcbcb );/* Same syntax as box-shadow *//* HOVER FLIP TRANSITION*/
+  /*  transition: 0.6s ease;
+  transform-style: preserve-3d;
+  perspective: 1000;*/
+ }
+
+#about {
+  /* margin-bottom: 150px; */
+  padding-bottom: 240px;
+  margin-top: 50px;
+  background-color: #F7f7f7;
+}
+
+#objective {
+  /* margin-bottom: 150px; */
+  padding-bottom: 240px;
+  padding-top:50px;
+  margin:0;
+  background-color: #F7f7f7;
+}
+
+  #PROJECTS {
+  /*padding-bottom:100px;*/
+  margin: 0 auto;
+  margin-bottom:50px;
+  /* margin-top: 2px; */
+  padding: 0;
+ }
+
+
+ .centered {
+  vertical-align: center;
+  text-align: center;
+  margin: 0 auto;
+ }
+
+/* .logo:hover {
+
+  transform: rotateY(360deg);
+
+ }*/
+
+ .hvr-grow-shadow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow, transform;
+  transition-property: box-shadow, transform;
+}
+
+.panel {
+  -webkit-transform: translateZ( 0 );
+    transform: translateZ( 0 );
+    -webkit-transition: -webkit-transform 0.6s ease-in-out;
+    transition: transform 0.6s ease-in-out;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+
+/*====================================================================
+BUTTONS
+====================================================================*/
+
+.hvr-sweep-to-top {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  /*margin-top: 50px;*/
+}
+.hvr-sweep-to-top:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  color:#fff;
+  background: #894261;
+  -webkit-transform: scaleY(0);
+  transform: scaleY(0);
+  -webkit-transform-origin: 50% 100%;
+  transform-origin: 50% 100%;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;/*ADDED PROPERTIES*/
+}
+.hvr-sweep-to-top:hover, .hvr-sweep-to-top:focus, .hvr-sweep-to-top:active {
+  color: white;
+  text-decoration: none;
+}
+.hvr-sweep-to-top:hover:before, .hvr-sweep-to-top:focus:before, .hvr-sweep-to-top:active:before {
+  -webkit-transform: scaleY(1);
+  transform: scaleY(1);
+  text-decoration: none;
+  color:#fff;
+}
+
+.button {
+  text-align: center;
+  vertical-align: center;
+  padding:10px;
+  line-height: 1.5em;
+  width:200px;
+  height:60px;
+  margin:0 auto;
+  border-bottom: solid 2px #894261;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  letter-spacing: 0.1em;
+}
+
+.button:hover {
+  color:#fff;
+}
+
+.button:active {
+  background-color:#894261;
+  border-bottom: #894261;
+  letter-spacing: 0em;
+}
+
+.reveal-button {
+  position: relative;
+  bottom: 0;
+  text-decoration: none;
+  vertical-align: middle;
+  font-size: 2rem;
+}
+
+
+.navbar-brand {
+  font-weight: 700;
+  text-indent:-9999px;
+  background-image:url(../img/logo30x30.svg);
+  background-repeat:no-repeat;
+  margin-top: 11px;
+  margin-left: 15px;
+  transition: all 0.3s ease;
+}
+
+.navbar-brand:hover {
+  background-image:url(../img/logo30x30B.svg);
+}
+
+@media (max-width: 767px) {
+  .navbar-brand {
+   display:none;
+   background-color: #CCC;
+  }
+}
+
+.navbar-default .navbar-brand {
+  color: #1abc9c;
+  height: 30px;
+}
+
+.navbar-default {
+  background-color: #f7f7f7;
+  border-color: transparent;
+  box-shadow: 10px -10px 3px 10px rgba(0,0,0,.3);
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  color: #FFF;
+  background-color: #BBB;
+  /*text-decoration: underline;*/
+  /*border-bottom: 2px solid #BBB;*/ 
+  /* text-shadow: 0px 0px 10px #FFF; */
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #BBB;
+  transition: all 0.5s ease;
+  font-weight: 300;
+  letter-spacing: .15rem;
+}
+
+.navbar-default .navbar-nav > li > a:hover{
+  color: #FFF;
+  background-color: #71b6c2;
+  /*border-bottom: 2px solid #71b6c2;*/ 
+}
+
+p.japanese {
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+/*==========ANIMATED TOGGLE BUTTON=============*/
+
+.icon-bar {
+  margin:0 0 0 2px;
+}
+
+.navbar-toggle span:nth-child(1) {
+  top: 0px;
+  margin-right: 10px;
+}
+
+.navbar-toggle span:nth-child(2),.navbar-toggle span:nth-child(3) {
+  top: 18px;
+}
+
+.navbar-toggle span:nth-child(4) {
+  top: 36px;
+}
+
+.navbar-toggle.open span:nth-child(1) {
+  top: 18px;
+  width: 0%;
+  left: 50%;
+}
+
+.navbar-toggle.open span:nth-child(2) {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg) translate(5px,5px);
+}
+
+.navbar-toggle.open span:nth-child(3) {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.navbar-toggle.open span:nth-child(4) {
+  top: 18px;
+  width: 0%;
+  left: 50%;
+}
+
+/* ==========================================================================
+   Wrap Sections
+   ========================================================================== */
+
+#headerwrap {
+  /* background: url(../img/cubeilloSM.jpg) repeat-y center top fixed; */
+  background: transparent;
+  margin-top: 0px;
+  margin-bottom: -50px;
+  padding-top: 50px;
+  text-align:center;
+  /*background-attachment: fixed;*/
+  /*background-position: center center;*/
+  background-position: fixed;
+  height: 420px;
+  width: 100%;
+  /*-webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;*/
+  /*-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;*/
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
+}
+
+#headerwrap h1 {
+  color:#ffffff;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  letter-spacing: 4px;
+  font-size: 65px;
+  font-weight: bold;
+  text-shadow: 4px 4px #cbcbcb;
+}
+
+#headerwrap h4 {
+  font-weight: 400;
+  color: #ffffff
+}
+
+#social {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  background-color: #f2f2f2;
+  /*margin-top: 50px;*/
+}
+
+#cvwrap {
+  /*  background: url(../img/cubeilloSM.jpg) repeat-y center top fixed;*/
+  background: transparent;
+  margin-top: 0px;
+  padding-top: 100px;
+  text-align:center;
+  /*background-attachment: fixed;*/
+  /*background-position: center center;*/
+  background-position: fixed;
+  height: 300px;
+  width: 100%;
+  /*-webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;*/
+  /*-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;*/
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
+}
+
+#cvwrap h1 {
+  color:#fff;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  letter-spacing: 4px;
+  font-size: 65px;
+  font-weight: bold;
+  text-shadow: 4px 4px #cbcbcb;
+}
+
+#cvwrap h2 {
+  color:#fff;
+  font-size:3rem;
+  letter-spacing: 1rem;
+}
+
+@media (min-width: 991px) {
+  #social {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }  
+}
+
+@media (max-width:600px){
+
+    /*RESIZE HEADER FOR RESPONSIVE*/
+    #headerwrap {
+    /*  background: url(../img/cubeilloSM.jpg) repeat-y center top fixed;*/
+    background: transparent;
+    margin-top: 0px;
+    padding-top: 70px;
+    padding-bottom:50px;
+    text-align:center;
+    /*background-attachment: fixed;*/
+    /*background-position: center center;*/
+    background-position: fixed;
+    height: 550px;
+    width: 100%;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+  }
+
+  #cvwrap {
+    background: url(../img/cubeillobwSM.jpg) repeat-y center top fixed;
+    background: transparent;
+    margin-top: 0px;
+    padding-top: 70px;
+    padding-bottom:50px;
+    text-align:center;
+    /*background-attachment: fixed;*/
+    /*background-position: center center;*/
+    background-position: fixed;
+    height: 350px;
+    width: 100%;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+  }
+
+  #aboutwrap {
+  /*  background: url(../img/cubeilloSM.jpg) repeat-y center top fixed;*/
+    background: transparent;
+    margin-top: 0px;
+    padding-top: 70px;
+    padding-bottom:50px;
+    text-align:center;
+    /*background-attachment: fixed;*/
+    /*background-position: center center;*/
+    background-position: fixed;
+    height: 500px;
+    width: 100%;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+  }
+
+  #fixedbackground{
+    position:relative;
+    /*z-index: -1;*/
+    background: url(../img/cubeilloSM.jpg) no-repeat center top fixed;
+    background-position: center center;
+    min-height: 800px;
+    width: 100%;
+    margin-top: 0px;
+    padding-top: 100px;
+  }
+
+  #fixedbackground2{
+    position: relative;
+    /*z-index: -1;*/
+    background: url(../img/cubeillo2SM.jpg) no-repeat center top fixed;
+    background-position: center center;
+    min-height: 800px;
+    width: 100%;
+    margin-top: 0px;
+    padding-top: 100px;
+  }
+
+  .centered.mt.mb {
+    background-color: white;
+    z-index: 100;
+    height: auto;
+    margin-bottom: 0;
+  }
+
+  .navbar-default .navbar-nav > li > a {
+    color: #BBB;
+      transition: all 0.5s ease;
+      font-weight: 300;
+      letter-spacing: .15rem;
+      font-size: 2.5rem;
+      line-height: 3.5rem;
+  }
+
+  .navbar-nav{
+    width:100%;
+  }
+
+
+}
+
+/*=======================================
+RESPONSIVE HEADER END
+=========================================*/
+
+#social i {
+  font-size: 40px;
+  color: #4a4a4a;
+  transition: all 0.5s ease;
+}
+
+#social i:hover {
+  color: #537e8e;
+  transform: scale(1.3);
+  -webkit-transform: scale(1.3);
+}
+
+#footerwrap {
+/*  padding-top: 20px;*/
+  padding-bottom: 50px;
+  background-image: url('../img/JPS_footerbackground3.jpg');
+  background-repeat: repeat;
+  border-top: 6px solid #262626;
+}
+
+
+@media (min-width: 991px) {
+  #footerwrap {
+    height: 100%;
+  }
+}
+
+@media (max-width: 991px){
+  .col-lg-2 {
+    padding-bottom:50px;
+
+  }
+}
+
+@media (max-width: 441px){
+  .content h1{
+  line-height: 30px;
+  color: #999;
+  font-size: 30px;
+  }
+}
+
+
+@media (min-width: 1000px){
+  .content {
+  padding-bottom: 10px;    
+  }
+}
+
+
+#footerwrap p {
+  color: #f2f2f2;
+  margin-left: 10px;
+}
+
+#workwrap {
+  /*  background: url(../img/cubeilloSM.jpg) repeat-y center top fixed;*/
+  background: transparent;
+  margin-top: 0px;
+  padding-top: 130px;
+  text-align:center;
+  /*background-attachment: fixed;*/
+  /*background-position: center center;*/
+  background-position: fixed;
+  height: 400px;
+  width: 100%;
+  /*-webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;*/
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
+}
+
+#workwrap h1 {
+  color:#ffffff;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  letter-spacing: 4px;
+  font-size: 65px;
+  font-weight: bold;
+}
+
+@media (max-width: 441px){
+    #workwrap {
+      height:300px;
+      padding-top:70px;
+    }
+
+    #workwrap h1 {
+    font-size: 50px;
+  }
+}
+
+#workwrap h4 {
+  font-weight: 400;
+  color: #ffffff
+}
+
+.project {
+  margin-top:50px;
+  font-size:1.5em;
+}
+
+.letterwrap{
+  margin-bottom: 80px;/*FOR GRADIENT REVEAL*/
+  max-height: 250px;
+  position: relative;
+  overflow: hidden;
+}
+
+.read-more {
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  padding-top: 110px;
+  background color:transparent;/* "transparent" only PROJECTS here because == rgba(0,0,0,0) */
+  /*background-image: linear-gradient(to bottom, transparent, white);*/
+  box-shadow: inset 70px -70px 80px 0px rgba(247, 247, 247, 1);
+  margin: 0 auto;
+}
+
+
+
+@media (max-width: 600px){
+  .read-more {
+    width: 100%;
+  }
+}
+
+#aboutwrap {
+  /*background: url(../img/about.png) center top;
+  margin-top: -210px;
+  margin-bottom: -200px;*/
+  /* padding-top: 260px; */
+  /*text-align: center;
+  background-attachment: relative;
+  background-position: center center;
+  min-height: 750px;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;*/
+}
+
+.social-icon {
+  padding-bottom:20px;
+
+}
+
+/* ==========================================================================
+  SERVICES SECTION (with .svg ICONS)
+   ========================================================================== */
+
+.iconwrap{
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.icon {
+  width:300px;
+  height:300px;
+  border-radius:150px;
+  /*background:#078dff;*/
+  color:#fff;
+  position: relative;
+  display: inline-block;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  background-size: 60%;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: all 0.5s ease;
+}
+
+.iconweb {
+  width:300px;
+  height:300px;
+  border-radius:150px;
+  background:#52808D;
+  color:#fff;
+  position: relative;
+  display: inline-block;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  background-image: url(/assets/img/smartphone96W.svg);
+  background-size: 60%;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: all 0.5s ease;
+}
+
+.iconillo {
+    /* width: 300px; */
+  /* height: 300px; */
+  /* border-radius: 150px; */
+  background: #52808D;
+  color: #fff;
+  /* position: relative; */
+  /* display: inline-block; */
+  /* margin-top: 80px; */
+  /* margin-bottom: 80px; */
+  background-image: url(/assets/img/pencil16W.svg);
+  background-size: 60%;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: all 0.5s ease;
+}
+
+.iconblog {
+    /* width: 300px; */
+  /* height: 300px; */
+  /* border-radius: 150px; */
+  background: #52808D;
+  color: #fff;
+  /* position: relative; */
+  /* display: inline-block; */
+  /* margin-top: 80px; */
+  /* margin-bottom: 80px; */
+  background-image: url(/assets/img/book236W.svg);
+  background-size: 60%;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: all 0.5s ease;
+}
+
+.icon:hover img:hover {
+/*  position: absolute;*/
+  z-index: -10;
+  opacity: 0;
+  transform: scale(1.1);
+}
+
+.iconsvg {
+  height: 100%;
+  width: 70%;
+  margin: 0 auto;
+  /*position: absolute;*/
+  z-index: 1;
+  right: 15%;
+  display: inline-block;
+  transition: all 0.5s ease;
+}
+
+.icontype{
+  /*width:50%;
+  height:50%;*/
+  font-size: 2em;
+  vertical-align: center;
+  text-align: center;
+  color: #FFF;
+  line-height: 9.5em;
+  opacity: 0;
+  letter-spacing: .75rem;
+  transition: all 0.5s ease;
+}
+
+.icontype:hover{
+  vertical-align: center;
+  text-align: center;
+  color: #FFF;
+  font-size: 2em;
+  opacity:1;
+  line-height: 9.5em;
+  letter-spacing: 0.5rem;
+  background-color: #52808D;
+  border-radius: 500px;
+}
+
+
+.icon a {
+  text-align: center;
+}
+
+.icon a:hover {
+  text-decoration: none;
+}
+
+
+#joelspic {
+  background: url(/assets/img/joelspic2.jpg) no-repeat center top;
+  vertical-align: center;
+  margin-top: 110px;
+  margin-bottom: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  height: 300px;
+  width: 300px;
+  border:none;
+  border-radius: 200px;
+  background-size: cover;
+}
+
+#joelspic h1 {
+  vertical-align: center;
+  text-align: center;
+  color:#FFF;line-height: 6.2em;
+  font-size: 5rem;
+}
+
+
+
+
+/* Gallery */
+.gallery {
+  margin-top: 30px;
+ /* width: 540px;*/
+}
+
+.gallery img:hover {
+  opacity: 0.4;
+  transform: scale(1.1);
+}
+
+/* ==========================================================================
+  PARALLAX
+   ========================================================================== */
+
+   #scroll-animate
+{
+  overflow: hidden;
+}
+
+#scroll-animate-main
+{
+  width: 100%;
+  left: 0;
+  position: fixed;
+}
+
+#heightPage,
+#heightScroll
+{
+  height: 800px;
+  width: 10px;
+  top: 0;
+  position: absolute;
+  z-index: 99;
+}
+
+#heightPage
+{
+  left: 0;
+}
+
+#heightScroll
+{
+  right: 0;
+}
+
+header
+{
+  width: 100%;
+  height: 100%;
+  /*background: url(https://raw.githubusercontent.com/hudsonmarinho/header-and-footer-parallax-effect/master/assets/images/bg-header.jpg) no-repeat auto auto;*/
+  top: 0;
+  position: fixed;
+  z-index: -1;
+}
+
+footer
+{
+  width: 100%;
+  height: 350px;
+  background: gray;
+  bottom: -300px;
+  position: fixed;
+  z-index: -1;
+}
+
+@media (max-width: 441px){
+  footer {
+    width: 100%;
+    height: 530px;
+    background: gray;
+    bottom: -300px;
+    position: fixed;
+    z-index: -1;
+  }
+
+  footer p {
+    font-size: 18px;
+    line-height: 0;
+  }
+
+
+
+}
+
+.content
+{
+  height: 100%;
+  min-height: 500px;
+  background: #FFFFFF;
+  position: relative;
+  z-index: 1;
+}
+
+.wrapper-parallax {
+  margin-top: 200px;
+  margin-bottom: 200px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+@media (min-width: 991px) {
+  .wrapper-parallax {
+    height: 913px;
+  }
+}
+
+
+h1{
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+/*  text-transform: uppercase;
+*/  text-align: center;
+  /*font-family: Helvetica;*/
+  font-size: 3em;
+  color: #999;
+}
+
+.headersteal {
+  background-color: #F7F7F7;
+  width: 100%;
+  height: 60px;
+  color: #CFCFCF;
+  /* line-height: 4; */
+  font-size: 2rem;
+  letter-spacing: 30px;
+  /* margin-top: 5px; */
+  /*border-bottom: 1px solid;*/
+  text-align: center;
+  vertical-align: middle;
+  margin: 0 auto;
+  /* margin-top: 50px; */
+  box-shadow: 0px -12px 12px -13px rgba(0,0,0,.2) inset;
+  padding-left: 20px; 
+  border-bottom: 50%;
+}
+
+.projectsheader {
+    background-color: #F7F7F7;
+    width: 100%;
+    height: 110px;
+    color: #CFCFCF;
+    line-height: 8;
+    font-size: 2rem;
+    letter-spacing: 30px;
+    /* margin-top: 5px; */
+    /* border-bottom: 1px solid; */
+    text-align: center;
+    vertical-align: middle;
+    margin: 0 auto;
+    /* margin-top: 50px; */
+    box-shadow: 0px -12px 12px -13px rgba(0,0,0,.2) inset;
+    padding-left: 20px;
+    border-bottom: 50%;
+}
+
+/*@media (max-width:600px){
+  .headersteal {
+  margin-top:5px;
+  }  
+}*/
+
+.headersgrey{
+  background-color:#DCDCDC;
+  width: 100%;
+  height: 70px;
+  color: #FFF;
+  line-height: 3.3em;
+  font-size: 2rem;
+  letter-spacing: 2rem;
+}
+
+header h1{}
+
+.content h1{
+  line-height: 30px;
+  color: #999;
+}
+
+footer h1
+{
+  line-height: 300px;
+}
+
+header,
+footer,
+#scroll-animate-main
+{
+  -webkit-transition-property: all;
+     -moz-transition-property: all;
+      transition-property: all;
+
+  -webkit-transition-duration: 0.4s;
+     -moz-transition-duration: 0.4s;
+      transition-duration: 0.4s;
+
+  -webkit-transition-timing-function: cubic-bezier(0, 0, 0, 1);
+     -moz-transition-timing-function: cubic-bezier(0, 0, 0, 1);
+      transition-timing-function: cubic-bezier(0, 0, 0, 1);
+}

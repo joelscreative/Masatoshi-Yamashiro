@@ -1,0 +1,240 @@
+body {
+  width: 100%;
+  margin:0;
+  padding: 0;
+}
+
+.row {
+  margin: 0;
+  padding: 0;
+}
+
+.container-fluid {
+  margin: 0;
+  padding: 0;
+}
+
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+
+#bg {
+  background: url("http://masatoshiyamashiro.com/img/portfolio1/48.jpg") no-repeat center center;
+  background-position: -200px 0;
+  background-size: 200%;
+  height: 50vw;
+  margin: 0 auto;
+  padding: 0;
+}
+
+@media (max-width: 900px) {
+  #bg {
+    background-position: -230px -20px;
+    background-size: 340%;
+    height: 100vw;
+  }
+}
+
+.navbar {
+  background-color: rgba(224, 224, 224, 0.5);
+  border: none;
+  width: 100%;
+  padding-left: 20px;
+  position: fixed;
+  z-index: 1000;
+}
+
+@media (min-width: 768px){
+.navbar {
+     border-radius: 4px; 
+}
+}
+
+#about {
+  height: 43vw;
+  background-color: #eaeaea;
+}
+
+@media (max-width:990px) {
+  #about {
+    height: 190vw;
+  }
+}
+
+.abouttext {
+  font-size: 1em;
+  line-height: 2.3em;
+}
+
+.abouttextwrap {
+  background-color: #fff;
+  color: #C1C1C1;
+  margin-top: -50%;
+  padding: 35px 35px 35px 45px;
+  position: absolute;
+  z-index: 2;
+  box-shadow: 5px 5px 0px #c6c6c6;
+}
+
+@media (max-width: 992px) {
+  .abouttextwrap {
+    position: static;
+    margin-top: 50px;
+    box-shadow: none;
+    padding: 35px;
+  }
+}
+
+.title {
+  font-size.2em;
+  text-align: center;
+  font-style: italic;
+  background-color: #fff;
+  color: #c6c6c6;
+  padding: 35px;
+}
+
+.bio {
+  margin: 40px 0;
+  padding: 0 12%;
+}
+
+.biotext {
+  color: #C1C1C1;
+  font-family: 'Raleway', sans-serif;
+  padding: 20px;
+  line-height: 2.5em;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+.portrait {
+  padding: 14px;
+  width: 200px;
+  vertical-align: middle;
+  margin: 0 auto;
+}
+
+#masaspic {
+  background: url(http://joelps.com/assets/img/masatoshiportrait.jpg) no-repeat center top;
+  vertical-align: middle;
+  margin-top: 110px;
+  margin-bottom: 30px;
+  margin-right: auto;
+  margin-left: 100px;
+  height: 300px;
+  width: 300px;
+  border: none;
+  border-radius: 200px;
+  background-size: cover;
+}
+
+@media (max-width:900px) {
+  #masaspic {
+    margin-left: auto;
+  }
+}
+
+.rule {
+  width: 50%;
+}
+
+.services {
+  height: 400px;
+  background-color: #fff;
+  /* border: 2px solid; */
+  padding-top: 100px;
+}
+
+.servicebutton {
+  vertical-align: middle;
+}
+
+.services h1 {
+  color: #c6c6c6;
+  font-size: 1.2em;
+  letter-spacing: 1em;
+}
+
+.footer {
+  background-color: #c6c6c6;
+  height: 500px;
+  border-top: 2px solid #9e9e9e;
+}
+
+.spaced {
+  padding-bottom: 0px;
+}
+
+.spaced h1 {
+  font-size: 2em;
+  letter-spacing: 2em;
+  height: 100px;
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 30px;
+  color: #c6c6c6;
+  font-style: italic;
+}
+
+.spaced h2 {
+  font-size: 2em;
+  position: absolute;
+  z-index: 1;
+  font-style: italic;
+  color: #fff;
+  letter-spacing: 1em;
+  z-index: 20;
+  text-align: center;
+  width: 100%;
+}
+
+@media (max-width:990px) {
+  .spaced h1 {
+    font-size: 2em;
+    letter-spacing: 1em;
+    width: 100%;
+    text-alignment: center;
+    padding-top: 30px;
+  }
+  .spaced h2 {
+    font-size: 3em;
+    letter-spacing: .2em;
+    width: 100%;
+    text-alignment: center;
+    position: absolute;
+    z-index: 20;
+  }
+}
+
+
+/* CAROUSEL 2 */
+
+
+/* CSS used here will be applied after bootstrap.css */
+
+.carousel {
+  margin-top: 0;
+}
+
+.item .thumb {
+  width: 25%;
+  cursor: pointer;
+  float: left;
+}
+
+.item .thumb img {
+  width: 100%;
+  margin: 2px;
+}
+
+.item img {
+  width: 100%;
+}
+
+#portrait {}
+
+#footer {
+  width:100%;
+}
