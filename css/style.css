@@ -21,7 +21,7 @@ body {
 
 #bg {
   background: url("http://masatoshiyamashiro.com/img/portfolio1/48.jpg") no-repeat center center;
-  background-position: -200px 0;
+  background-position: -220px 0;
   background-size: 200%;
   height: 50vw;
   margin: 0 auto;
@@ -51,6 +51,12 @@ body {
 }
 }
 
+.navbar-brand {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 200;
+  font-size: 2em;
+}
+
 #about {
   height: 43vw;
   background-color: #eaeaea;
@@ -65,7 +71,8 @@ body {
 .abouttext {
   font-size: 1em;
   line-height: 2.3em;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
 }
 
 .abouttextwrap {
@@ -102,11 +109,13 @@ body {
 }
 
 .biotext {
-  color: #C1C1C1;
+  color: #aaaaaa;
   padding: 20px;
   line-height: 2.5em;
   font-size: 1.2em;
-  font-alignment: center;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
 }
 
 .portrait {
@@ -153,7 +162,7 @@ body {
 
 .services h1 {
   color: #c6c6c6;
-  font-size: 1.2em;
+  font-size: 1.4em;
   letter-spacing: 1em;
   font-family: 'Josefin Sans', sans-serif;
 }
