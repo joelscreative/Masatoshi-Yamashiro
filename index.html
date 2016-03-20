@@ -18,9 +18,10 @@
     <!-- SMOOTHSCROLL JQ -->
     <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js'></script>
 
-    <script>
+    <!--<script>
       $(function() {
-      $('a[href*="#"]:not([href="#"])').click(function() {
+      $('a[href*="#"]:not([href="#"])').click(function() { 
+        $("#carousel1, #carousel2, #carousel3, #carousel4, #thumbcarousel1, #thumbcarousel2, #thumbcarousel3, #thumbcarousel4").off("click");
         if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
           var target = $(this.hash);
           target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
@@ -31,6 +32,15 @@
             return false;
           }
         }
+      });
+    });
+    </script>-->
+
+    <script> 
+      jQuery(document).ready(function($) {
+      $(".scroll").click(function(event){     
+          event.preventDefault();
+          $('html,body').animate({scrollTop:$(this.hash).offset().top}, 500);
       });
     });
     </script>
@@ -62,18 +72,18 @@
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navfont">
-              <li class="active"><a href="#about">About <span class="sr-only">(current)</span></a></li>
+              <li class="active"><a href="#about" class="scroll">About <span class="sr-only">(current)</span></a></li>
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Work <span class="caret"></span></a>
                 <ul class="dropdown-menu">
-                  <li><a href="#portrait">portrait</a></li>
-                  <li><a href="#art">art</a></li>
-                  <li><a href="#fashion">fashion</a></li>
+                  <li><a href="#portrait" class="scroll">portrait</a></li>
+                  <li><a href="#art" class="scroll">art</a></li>
+                  <li><a href="#fashion"class="scroll">fashion</a></li>
                   <li role="separator" class="divider"></li>
-                  <li><a href="#">video</a></li>
+                  <li><a href="#video" class="scroll">video</a></li>
                 </ul>
               </li>
-              <li><a href="#footer">Contact</a></li>
+              <li><a href="#footer" class="scroll">Contact</a></li>
 
             </ul>
             <!--           <form class="navbar-form navbar-left" role="search">
@@ -110,7 +120,7 @@
 
             <div class="col-md-4 services">
               <div class="servicebutton">
-                <a href="#"><img src="http://joelps.com/masatoshi/assets/img/icons/icon1.svg" class="img-responsive center-block" height="20">
+                <a href="#portrait" class="scroll"><img src="http://joelps.com/masatoshi/assets/img/icons/icon1.svg" class="img-responsive center-block" height="20">
                   <h1 class="text-center"><em>portrait</em></h1>
                 </a>
               </div>
@@ -118,7 +128,7 @@
 
             <div class="col-md-4 services">
               <div class="servicebutton">
-                <a href="#"><img src="http://joelps.com/masatoshi/assets/img/icons/icon3.svg" class="img-responsive center-block">
+                <a href="#art" class="scroll"><img src="http://joelps.com/masatoshi/assets/img/icons/icon3.svg" class="img-responsive center-block">
                   <h1 class="text-center"><em>art</em></h1>
                 </a>
               </div>
@@ -126,7 +136,7 @@
 
             <div class="col-md-4 services">
               <div class="servicebutton">
-                <a href="#"><img src="http://joelps.com/masatoshi/assets/img/icons/icon2.svg" class="img-responsive center-block">
+                <a href="#fashion" class="scroll"><img src="http://joelps.com/masatoshi/assets/img/icons/icon2.svg" class="img-responsive center-block">
                   <h1 class="text-center"><em>fashion</em></h1>
                 </a>
               </div>
@@ -276,7 +286,7 @@
                 </div>
               </div>
               <div class="clearfix">
-                <div id="thumbcarousel1" class="carousel slide" data-interval="false">
+                <div id="thumbcarousel2" class="carousel slide" data-interval="false">
                   <div class="carousel-inner">
                     <div class="item active">
                       <div data-target="#carousel2" data-slide-to="0" class="thumb"><img src="http://placehold.it/100/e8117f/fff&amp;text=Product+Main"></div>
