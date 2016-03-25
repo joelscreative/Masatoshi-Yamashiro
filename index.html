@@ -2,39 +2,36 @@
 <html >
   <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>MasatoshiYamashiro Portfolio</title>
     
-    
+    <!-- STYLES -->
     
     <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
 
     <link rel="stylesheet" href="css/style.css">
+
+    <link type="text/css" rel="stylesheet" href="css/featherlight.css" />
+
+    <link type="text/css" rel="stylesheet" href="css/featherlight.gallery.css" />
+
+    <link href="//cdn.rawgit.com/noelboss/featherlight/1.4.0/release/featherlight.min.css" type="text/css" rel="stylesheet" />
+
+    <link href="//cdn.rawgit.com/noelboss/featherlight/1.4.0/release/featherlight.gallery.min.css" type="text/css" rel="stylesheet" />
+
+
+    <!-- FONTS -->
     
     <link href='https://fonts.googleapis.com/css?family=Josefin+Sans:400,700italic,700,600italic,600,400italic,100,100italic,300,300italic' rel='stylesheet' type='text/css'>
 
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,900italic,100italic,300,300italic,400italic,500,500italic,700,700italic,900' rel='stylesheet' type='text/css'>
 
+    <link href='http://fonts.googleapis.com/css?family=Raleway' type='text/css'>
+
 
     <!-- SMOOTHSCROLL JQ -->
     <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js'></script>
-
-    <!--<script>
-      $(function() {
-      $('a[href*="#"]:not([href="#"])').click(function() { 
-        $("#carousel1, #carousel2, #carousel3, #carousel4, #thumbcarousel1, #thumbcarousel2, #thumbcarousel3, #thumbcarousel4").off("click");
-        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-          var target = $(this.hash);
-          target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-          if (target.length) {
-            $('html, body').animate({
-              scrollTop: target.offset().top
-            }, 1000);
-            return false;
-          }
-        }
-      });
-    });
-    </script>-->
 
     <script> 
       jQuery(document).ready(function($) {
@@ -45,9 +42,23 @@
     });
     </script>
     
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    
+    <script src="http://jacobnewman.co.uk/test/vimeo/dist/jquery.vimeo.api.min.js"></script>
+
+  
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+    <script src="http://joelps.com/masatoshi/js/parallax.js"></script>
+
 
   </head>
+
+
+
+
+
+
+
 
   <body>
 
@@ -66,24 +77,24 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-            <a class="navbar-brand" href="#"><span style="color:#000000; text-shadow:0 0 10px #c6c6c6;">MASATOSHI</span><span style="font-weight:300; color:#ffffff; text-shadow:0 0 10px #c6c6c6;">YAMASHIRO</span></a>
+            <a class="navbar-brand" href="#"><span style="font-weight: 300; color:#000000;">MASATOSHI</span><span style="font-weight:300; color:#ffffff; text-shadow:0 0 10px #c6c6c6;">YAMASHIRO</span></a>
           </div>
 
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navfont">
-              <li class="active"><a href="#about" class="scroll">About <span class="sr-only">(current)</span></a></li>
+              <li><a href="#about" class="scroll navfont">About <span class="sr-only">(current)</span></a></li>
               <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Work <span class="caret"></span></a>
+                <a href="#" class="dropdown-toggle navfont" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Work <span class="caret"></span></a>
                 <ul class="dropdown-menu">
-                  <li><a href="#portrait" class="scroll">portrait</a></li>
-                  <li><a href="#art" class="scroll">art</a></li>
-                  <li><a href="#fashion"class="scroll">fashion</a></li>
-                  <li role="separator" class="divider"></li>
-                  <li><a href="#video" class="scroll">video</a></li>
+                  <li><a href="#portrait" class="scroll navfont">portrait</a></li>
+                  <li><a href="#art" class="scroll navfont">art</a></li>
+                  <li><a href="#fashion"class="scroll navfont">fashion</a></li>
+                  <li role="separator" class="divider navfont"></li>
+                  <li><a href="#video" class="scroll navfont">video</a></li>
                 </ul>
               </li>
-              <li><a href="#footer" class="scroll">Contact</a></li>
+              <li><a href="#footer" class="scroll navfont">Contact</a></li>
 
             </ul>
             <!--           <form class="navbar-form navbar-left" role="search">
@@ -110,7 +121,9 @@
 
                 <div id="dot-matrix"></div>
 
-               <iframe src="https://player.vimeo.com/video/77569975?background=1&autoplay=1&loop=1&title=0&byline=0&portrait=0&audio=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+               <!-- <iframe src="https://player.vimeo.com/video/77569975?background=1&autoplay=1&loop=1&title=0&byline=0&portrait=0&audio=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> -->
+
+               <iframe id="projectplayer" src="https://player.vimeo.com/video/77569975?api=1&background=1&autoplay=1&loop=1&volume=0"></iframe>
 
                </div> <!-- /flex-video widescreen -->
             </div><!-- /flex-video-wrapper -->
@@ -119,30 +132,31 @@
 
         <!-- <div id="bg" class="img-responsive"></div> -->
 
-        <section id="work" class="nopadding">
+        <section id="work">
 
-          <div class="row nopadding">
+          <div class="row nopadding serviceswrapper">
 
             <div class="col-md-4 services">
               <div class="servicebutton">
-                <a href="#portrait" class="scroll"><img src="http://joelps.com/masatoshi/assets/img/icons/icon1.svg" class="img-responsive center-block" height="20">
-                  <h1 class="text-center"><em>portrait</em></h1>
+                <a href="#portrait" class="scroll"><img src="http://joelps.com/masatoshi/assets/img/icons/icon1.svg" class="img-responsive center-block servicelink" height="20">
+                <h1 class="text-center"><em>portrait</em></h1>
                 </a>
               </div>
             </div>
 
             <div class="col-md-4 services">
               <div class="servicebutton">
-                <a href="#art" class="scroll"><img src="http://joelps.com/masatoshi/assets/img/icons/icon3.svg" class="img-responsive center-block">
-                  <h1 class="text-center"><em>art</em></h1>
+                <a href="#art" class="scroll"><img src="http://joelps.com/masatoshi/assets/img/icons/icon3.svg" class="img-responsive center-block servicelink">
+                <h1 class="text-center"><em>art</em></h1>
                 </a>
+                
               </div>
             </div>
 
             <div class="col-md-4 services">
               <div class="servicebutton">
-                <a href="#fashion" class="scroll"><img src="http://joelps.com/masatoshi/assets/img/icons/icon2.svg" class="img-responsive center-block">
-                  <h1 class="text-center"><em>fashion</em></h1>
+                <a href="#fashion" class="scroll"><img src="http://joelps.com/masatoshi/assets/img/icons/icon2.svg" class="img-responsive center-block servicelink">
+                <h1 class="text-center"><em>fashion</em></h1>
                 </a>
               </div>
             </div>
@@ -153,11 +167,15 @@
 
         <!-- SERVICES SECTION END -->
 
-        <section id="about" class="nopadding">
+        <section id="about" style="background:transparent;">
+        
+        <div id="parallax-window" data-parallax="scroll" data-image-src="http://joelps.com/masatoshi/assets/img/art__38.jpg" class="img-responsive">
 
-          <div class="row">
+          <div class="container" style="background:transparent; height:100%; width:100%;">
 
-            <div class="col-md-4 center-block nopadding">
+          <div class="row backgroundiosfallback" style="background:transparent;">
+
+            <div class="col-md-4 center-block nopadding" style="background:transparent;">
               <!--               <img src="http://joelps.com/assets/img/masatoshiportrait.jpg" class="img-responsive img-circle portrait center-block" alt="Mayatoshi Yamashiro Portrait"> -->
               <div class="avatar">
                 <div id="masaspic" class="img-responsive"></div>
@@ -175,12 +193,17 @@
               <p class="text-center biotext">
                 He started his Career shooting celebrates and artists back in Los Angeles in 2004. He lives in Tokyo Japan now.</p>
 
-            </div>
+            </div><!-- /col-md-8 bio -->
 
-          </div>
+          </div><!-- col-md-4 center-block nopadding -->
 
-        </section>
+        </div><!-- /row parallax-window -->
+      </div>
 
+      </div><!-- /parallax-window -->
+
+        
+    </section>
 
         <!-- ABOUT SECTION END -->
 
@@ -195,48 +218,51 @@
             <div class="col-sm-6 nopadding">
               <h2 class="text-center">WOMEN</h2>
               <div id="carousel1" class="carousel slide" data-ride="carousel">
-                <div class="carousel-inner">
+                <div class="carousel-inner big">
                   <div class="item active">
-                    <img src="http://placehold.it/350x250/e8117f/fff&amp;text=Product+Main">
+                    <a href="http://joelps.com/masatoshi/assets/img/large/women__02LARGE.jpg" class="thumbnail gallery img-responsive" data-featherlight="image"><img src="http://joelps.com/masatoshi/assets/img/women__02.jpg">
+                    </a>
                   </div>
                   <div class="item">
-                    <img src="http://placehold.it/350x250/00ffff/000&amp;text=Product+Image+2">
+                    <a href="http://joelps.com/masatoshi/assets/img/larger/women__01.jpg">
+                    <img src="http://joelps.com/masatoshi/assets/img/women__01.jpg">
+                  </a>
                   </div>
                   <div class="item">
-                    <img src="http://placehold.it/350x250/ff00ff/fff&amp;text=Product+Image+3">
+                    <img src="http://joelps.com/masatoshi/assets/img/women__04.jpg">
                   </div>
                   <div class="item">
-                    <img src="http://placehold.it/350x250/ffff00/000&amp;text=Product+Image+4">
+                    <img src="http://joelps.com/masatoshi/assets/img/women__03.jpg">
                   </div>
                   <div class="item">
-                    <img src="http://placehold.it/350x250/612b65/fff&amp;text=Product+Image+5">
+                    <img src="http://joelps.com/masatoshi/assets/img/women__06.jpg">
                   </div>
                   <div class="item">
-                    <img src="http://placehold.it/350x250/00ffff/000&amp;text=Product+Image+6">
+                    <img src="http://joelps.com/masatoshi/assets/img/women__05.jpg">
                   </div>
                   <div class="item">
-                    <img src="http://placehold.it/350x250/db371b/fff&amp;text=Product+Image+7">
+                    <img src="http://joelps.com/masatoshi/assets/img/women__08.jpg">
                   </div>
                   <div class="item">
-                    <img src="http://placehold.it/350x250/feb8aa/000&amp;text=Product+Image+8">
+                    <img src="http://joelps.com/masatoshi/assets/img/women__07.jpg">
                   </div>
                 </div>
               </div>
               <div class="clearfix">
                 <div id="thumbcarousel1" class="carousel slide" data-interval="false">
-                  <div class="carousel-inner">
+                  <div class="carousel-inner small">
                     <div class="item active">
-                      <div data-target="#carousel1" data-slide-to="0" class="thumb"><img src="http://placehold.it/100/e8117f/fff&amp;text=Product+Main"></div>
-                      <div data-target="#carousel1" data-slide-to="1" class="thumb"><img src="http://placehold.it/100/00ffff/000&amp;text=Product+Image+2"></div>
-                      <div data-target="#carousel1" data-slide-to="2" class="thumb"><img src="http://placehold.it/100/ff00ff/fff&amp;text=Product+Image+3"></div>
-                      <div data-target="#carousel1" data-slide-to="3" class="thumb"><img src="http://placehold.it/100/ffff00/000&amp;text=Product+Image+4"></div>
+                      <div data-target="#carousel1" data-slide-to="0" class="thumb"><img src="http://joelps.com/masatoshi/assets/img/women__02.jpg"></div>
+                      <div data-target="#carousel1" data-slide-to="1" class="thumb"><img src="http://joelps.com/masatoshi/assets/img/women__01.jpg"></div>
+                      <div data-target="#carousel1" data-slide-to="2" class="thumb"><img src="http://joelps.com/masatoshi/assets/img/women__04.jpg"></div>
+                      <div data-target="#carousel1" data-slide-to="3" class="thumb"><img src="http://joelps.com/masatoshi/assets/img/women__03.jpg"></div>
                     </div>
                     <!-- /item -->
                     <div class="item">
-                      <div data-target="#carousel1" data-slide-to="4" class="thumb"><img src="http://placehold.it/100/612b65/fff&amp;text=Product+Image+5"></div>
-                      <div data-target="#carousel1" data-slide-to="5" class="thumb"><img src="http://placehold.it/100/00ffcc/000&amp;text=Product+Image+6"></div>
-                      <div data-target="#carousel1" data-slide-to="6" class="thumb"><img src="http://placehold.it/100/db371b/fff&amp;text=Product+Image+7"></div>
-                      <div data-target="#carousel1" data-slide-to="7" class="thumb"><img src="http://placehold.it/100/feb8aa/000&amp;text=Product+Image+8"></div>
+                      <div data-target="#carousel1" data-slide-to="4" class="thumb"><img src="http://joelps.com/masatoshi/assets/img/women__06.jpg"></div>
+                      <div data-target="#carousel1" data-slide-to="5" class="thumb"><img src="http://joelps.com/masatoshi/assets/img/women__05.jpg"></div>
+                      <div data-target="#carousel1" data-slide-to="6" class="thumb"><img src="http://joelps.com/masatoshi/assets/img/women__08.jpg"></div>
+                      <div data-target="#carousel1" data-slide-to="7" class="thumb"><img src="http://joelps.com/masatoshi/assets/img/women__07.jpg"></div>
                     </div>
                     <!-- /item -->
                   </div>
@@ -265,48 +291,48 @@
               <h2>MEN</h2>
 
               <div id="carousel2" class="carousel slide" data-ride="carousel">
-                <div class="carousel-inner">
+                <div class="carousel-inner big">
                   <div class="item active">
-                    <img src="http://placehold.it/350x250/e8117f/fff&amp;text=Product+Main">
+                    <img src="http://joelps.com/masatoshi/assets/img/men_08A014.jpg">
                   </div>
                   <div class="item">
-                    <img src="http://placehold.it/350x250/00ffff/000&amp;text=Product+Image+2">
+                    <img src="http://joelps.com/masatoshi/assets/img/men_022.jpg">
                   </div>
                   <div class="item">
-                    <img src="http://placehold.it/350x250/ff00ff/fff&amp;text=Product+Image+3">
+                    <img src="http://joelps.com/masatoshi/assets/img/men_08015.jpg">
                   </div>
                   <div class="item">
-                    <img src="http://placehold.it/350x250/ffff00/000&amp;text=Product+Image+4">
+                    <img src="http://joelps.com/masatoshi/assets/img/men_1062004.jpg">
                   </div>
                   <div class="item">
-                    <img src="http://placehold.it/350x250/612b65/fff&amp;text=Product+Image+5">
+                    <img src="http://joelps.com/masatoshi/assets/img/men_1062A003.jpg">
                   </div>
                   <div class="item">
-                    <img src="http://placehold.it/350x250/00ffff/000&amp;text=Product+Image+6">
+                    <img src="http://joelps.com/masatoshi/assets/img/men_15A012.jpg">
                   </div>
                   <div class="item">
-                    <img src="http://placehold.it/350x250/db371b/fff&amp;text=Product+Image+7">
+                    <img src="http://joelps.com/masatoshi/assets/img/men_15013.jpg">
                   </div>
                   <div class="item">
-                    <img src="http://placehold.it/350x250/feb8aa/000&amp;text=Product+Image+8">
+                    <img src="http://joelps.com/masatoshi/assets/img/men_16 (1)A010.jpg">
                   </div>
                 </div>
               </div>
               <div class="clearfix">
                 <div id="thumbcarousel2" class="carousel slide" data-interval="false">
-                  <div class="carousel-inner">
+                  <div class="carousel-inner small">
                     <div class="item active">
-                      <div data-target="#carousel2" data-slide-to="0" class="thumb"><img src="http://placehold.it/100/e8117f/fff&amp;text=Product+Main"></div>
-                      <div data-target="#carousel2" data-slide-to="1" class="thumb"><img src="http://placehold.it/100/00ffff/000&amp;text=Product+Image+2"></div>
-                      <div data-target="#carousel2" data-slide-to="2" class="thumb"><img src="http://placehold.it/100/ff00ff/fff&amp;text=Product+Image+3"></div>
-                      <div data-target="#carousel2" data-slide-to="3" class="thumb"><img src="http://placehold.it/100/ffff00/000&amp;text=Product+Image+4"></div>
+                      <div data-target="#carousel2" data-slide-to="0" class="thumb"><img src="http://joelps.com/masatoshi/assets/img/men_08A014.jpg"></div>
+                      <div data-target="#carousel2" data-slide-to="1" class="thumb"><img src="http://joelps.com/masatoshi/assets/img/men_022.jpg"></div>
+                      <div data-target="#carousel2" data-slide-to="2" class="thumb"><img src="http://joelps.com/masatoshi/assets/img/men_08015.jpg"></div>
+                      <div data-target="#carousel2" data-slide-to="3" class="thumb"><img src="http://joelps.com/masatoshi/assets/img/men_1062004.jpg"></div>
                     </div>
                     <!-- /item -->
                     <div class="item">
-                      <div data-target="#carousel2" data-slide-to="4" class="thumb"><img src="http://placehold.it/100/612b65/fff&amp;text=Product+Image+5"></div>
-                      <div data-target="#carousel2" data-slide-to="5" class="thumb"><img src="http://placehold.it/100/00ffcc/000&amp;text=Product+Image+6"></div>
-                      <div data-target="#carousel2" data-slide-to="6" class="thumb"><img src="http://placehold.it/100/db371b/fff&amp;text=Product+Image+7"></div>
-                      <div data-target="#carousel2" data-slide-to="7" class="thumb"><img src="http://placehold.it/100/feb8aa/000&amp;text=Product+Image+8"></div>
+                      <div data-target="#carousel2" data-slide-to="4" class="thumb"><img src="http://joelps.com/masatoshi/assets/img/men_1062A003.jpg"></div>
+                      <div data-target="#carousel2" data-slide-to="5" class="thumb"><img src="http://joelps.com/masatoshi/assets/img/men_15A012.jpg"></div>
+                      <div data-target="#carousel2" data-slide-to="6" class="thumb"><img src="http://joelps.com/masatoshi/assets/img/men_15013.jpg"></div>
+                      <div data-target="#carousel2" data-slide-to="7" class="thumb"><img src="http://joelps.com/masatoshi/assets/img/men_16 (1)A010.jpg"></div>
                     </div>
                     <!-- /item -->
                   </div>
@@ -338,33 +364,33 @@
 
             <!--             CAROUSEL 3 -->
             <div class="col-sm-6 nopadding">
-              <h2>snapshots</h2>
+              <h2>SNAPSHOTS</h2>
 
               <div id="carousel3" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
                   <div class="item active">
-                    <img src="http://placehold.it/350x250/e8117f/fff&amp;text=Product+Main">
+                    <img src="http://joelps.com/masatoshi/assets/img/snap_001.jpg">
                   </div>
                   <div class="item">
-                    <img src="http://placehold.it/350x250/00ffff/000&amp;text=Product+Image+2">
+                    <img src="http://joelps.com/masatoshi/assets/img/snap_002.jpg">
                   </div>
                   <div class="item">
-                    <img src="http://placehold.it/350x250/ff00ff/fff&amp;text=Product+Image+3">
+                    <img src="http://joelps.com/masatoshi/assets/img/snap_003.jpg">
                   </div>
                   <div class="item">
-                    <img src="http://placehold.it/350x250/ffff00/000&amp;text=Product+Image+4">
+                    <img src="http://joelps.com/masatoshi/assets/img/snap_004.jpg">
                   </div>
                   <div class="item">
-                    <img src="http://placehold.it/350x250/612b65/fff&amp;text=Product+Image+5">
+                    <img src="http://joelps.com/masatoshi/assets/img/snap_005.jpg">
                   </div>
                   <div class="item">
-                    <img src="http://placehold.it/350x250/00ffff/000&amp;text=Product+Image+6">
+                    <img src="http://joelps.com/masatoshi/assets/img/snap_006.jpg">
                   </div>
                   <div class="item">
-                    <img src="http://placehold.it/350x250/db371b/fff&amp;text=Product+Image+7">
+                    <img src="http://joelps.com/masatoshi/assets/img/snap_007.jpg">
                   </div>
                   <div class="item">
-                    <img src="http://placehold.it/350x250/feb8aa/000&amp;text=Product+Image+8">
+                    <img src="http://joelps.com/masatoshi/assets/img/snap_008.jpg">
                   </div>
                 </div>
               </div>
@@ -372,25 +398,25 @@
                 <div id="thumbcarousel3" class="carousel slide" data-interval="false">
                   <div class="carousel-inner">
                     <div class="item active">
-                      <div data-target="#carousel3" data-slide-to="0" class="thumb"><img src="http://placehold.it/100/e8117f/fff&amp;text=Product+Main"></div>
-                      <div data-target="#carousel3" data-slide-to="1" class="thumb"><img src="http://placehold.it/100/00ffff/000&amp;text=Product+Image+2"></div>
-                      <div data-target="#carousel3" data-slide-to="2" class="thumb"><img src="http://placehold.it/100/ff00ff/fff&amp;text=Product+Image+3"></div>
-                      <div data-target="#carousel3" data-slide-to="3" class="thumb"><img src="http://placehold.it/100/ffff00/000&amp;text=Product+Image+4"></div>
+                      <div data-target="#carousel3" data-slide-to="0" class="thumb"><img src="http://joelps.com/masatoshi/assets/img/snap_001.jpg"></div>
+                      <div data-target="#carousel3" data-slide-to="1" class="thumb"><img src="http://joelps.com/masatoshi/assets/img/snap_002.jpg"></div>
+                      <div data-target="#carousel3" data-slide-to="2" class="thumb"><img src="http://joelps.com/masatoshi/assets/img/snap_003.jpg"></div>
+                      <div data-target="#carousel3" data-slide-to="3" class="thumb"><img src="http://joelps.com/masatoshi/assets/img/snap_004.jpg"></div>
                     </div>
                     <!-- /item -->
                     <div class="item">
-                      <div data-target="#carousel3" data-slide-to="4" class="thumb"><img src="http://placehold.it/100/612b65/fff&amp;text=Product+Image+5"></div>
-                      <div data-target="#carousel3" data-slide-to="5" class="thumb"><img src="http://placehold.it/100/00ffcc/000&amp;text=Product+Image+6"></div>
-                      <div data-target="#carousel3" data-slide-to="6" class="thumb"><img src="http://placehold.it/100/db371b/fff&amp;text=Product+Image+7"></div>
-                      <div data-target="#carousel3" data-slide-to="7" class="thumb"><img src="http://placehold.it/100/feb8aa/000&amp;text=Product+Image+8"></div>
+                      <div data-target="#carousel3" data-slide-to="4" class="thumb"><img src="http://joelps.com/masatoshi/assets/img/snap_005.jpg"></div>
+                      <div data-target="#carousel3" data-slide-to="5" class="thumb"><img src="http://joelps.com/masatoshi/assets/img/snap_006.jpg"></div>
+                      <div data-target="#carousel3" data-slide-to="6" class="thumb"><img src="http://joelps.com/masatoshi/assets/img/snap_007.jpg"></div>
+                      <div data-target="#carousel3" data-slide-to="7" class="thumb"><img src="http://joelps.com/masatoshi/assets/img/snap_008.jpg"></div>
                     </div>
                     <!-- /item -->
                   </div>
                   <!-- /carousel-inner -->
-                   <a class="left carousel-control" href="#thumbcarousel3" role="button" data-slide="prev" onclick="$('#thumbcarousel3').carousel('prev')">
+                   <a class="left carousel-control short" href="#thumbcarousel3" role="button" data-slide="prev" onclick="$('#thumbcarousel3').carousel('prev')">
                     <span class="glyphicon glyphicon-chevron-left"></span>
                   </a>
-                  <a class="right carousel-control" href="#thumbcarousel3" role="button" data-slide="next" onclick="$('#thumbcarousel3').carousel('next')">
+                  <a class="right carousel-control short" href="#thumbcarousel3" role="button" data-slide="next" onclick="$('#thumbcarousel3').carousel('next')">
                     <span class="glyphicon glyphicon-chevron-right"></span>
                   </a>
                 </div>
@@ -403,32 +429,32 @@
 
             <!--             CAROUSEL 4 -->
             <div class="col-sm-6 nopadding">
-              <h2 class="text-center">portfolio</h2>
+              <h2 class="text-center">PORTFOLIO</h2>
               <div id="carousel4" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
                   <div class="item active">
-                    <img src="http://placehold.it/350x250/e8117f/fff&amp;text=Product+Main">
+                    <img src="http://joelps.com/masatoshi/assets/img/art_015.jpg">
                   </div>
                   <div class="item">
-                    <img src="http://placehold.it/350x250/00ffff/000&amp;text=Product+Image+2">
+                    <img src="http://joelps.com/masatoshi/assets/img/art_016.jpg">
                   </div>
                   <div class="item">
-                    <img src="http://placehold.it/350x250/ff00ff/fff&amp;text=Product+Image+3">
+                    <img src="http://joelps.com/masatoshi/assets/img/art_017.jpg">
                   </div>
                   <div class="item">
-                    <img src="http://placehold.it/350x250/ffff00/000&amp;text=Product+Image+4">
+                    <img src="http://joelps.com/masatoshi/assets/img/art_018.jpg">
                   </div>
                   <div class="item">
-                    <img src="http://placehold.it/350x250/612b65/fff&amp;text=Product+Image+5">
+                    <img src="http://joelps.com/masatoshi/assets/img/art_019.jpg">
                   </div>
                   <div class="item">
-                    <img src="http://placehold.it/350x250/00ffff/000&amp;text=Product+Image+6">
+                    <img src="http://joelps.com/masatoshi/assets/img/art_020.jpg">
                   </div>
                   <div class="item">
-                    <img src="http://placehold.it/350x250/db371b/fff&amp;text=Product+Image+7">
+                    <img src="http://joelps.com/masatoshi/assets/img/art__30.jpg">
                   </div>
                   <div class="item">
-                    <img src="http://placehold.it/350x250/feb8aa/000&amp;text=Product+Image+8">
+                    <img src="http://joelps.com/masatoshi/assets/img/art__31.jpg">
                   </div>
                 </div>
               </div>
@@ -436,25 +462,25 @@
                 <div id="thumbcarousel4" class="carousel slide" data-interval="false">
                   <div class="carousel-inner">
                     <div class="item active">
-                      <div data-target="#carousel4" data-slide-to="0" class="thumb"><img src="http://placehold.it/100/e8117f/fff&amp;text=Product+Main"></div>
-                      <div data-target="#carousel4" data-slide-to="1" class="thumb"><img src="http://placehold.it/100/00ffff/000&amp;text=Product+Image+2"></div>
-                      <div data-target="#carousel4" data-slide-to="2" class="thumb"><img src="http://placehold.it/100/ff00ff/fff&amp;text=Product+Image+3"></div>
-                      <div data-target="#carousel4" data-slide-to="3" class="thumb"><img src="http://placehold.it/100/ffff00/000&amp;text=Product+Image+4"></div>
+                      <div data-target="#carousel4" data-slide-to="0" class="thumb"><img src="http://joelps.com/masatoshi/assets/img/art_015.jpg"></div>
+                      <div data-target="#carousel4" data-slide-to="1" class="thumb"><img src="http://joelps.com/masatoshi/assets/img/art_016.jpg"></div>
+                      <div data-target="#carousel4" data-slide-to="2" class="thumb"><img src="http://joelps.com/masatoshi/assets/img/art_017.jpg"></div>
+                      <div data-target="#carousel4" data-slide-to="3" class="thumb"><img src="http://joelps.com/masatoshi/assets/img/art_018.jpg"></div>
                     </div>
                     <!-- /item -->
                     <div class="item">
-                      <div data-target="#carousel4" data-slide-to="4" class="thumb"><img src="http://placehold.it/100/612b65/fff&amp;text=Product+Image+5"></div>
-                      <div data-target="#carousel4" data-slide-to="5" class="thumb"><img src="http://placehold.it/100/00ffcc/000&amp;text=Product+Image+6"></div>
-                      <div data-target="#carousel4" data-slide-to="6" class="thumb"><img src="http://placehold.it/100/db371b/fff&amp;text=Product+Image+7"></div>
-                      <div data-target="#carousel4" data-slide-to="7" class="thumb"><img src="http://placehold.it/100/feb8aa/000&amp;text=Product+Image+8"></div>
+                      <div data-target="#carousel4" data-slide-to="4" class="thumb"><img src="http://joelps.com/masatoshi/assets/img/art_019.jpg"></div>
+                      <div data-target="#carousel4" data-slide-to="5" class="thumb"><img src="http://joelps.com/masatoshi/assets/img/art_020.jpg"></div>
+                      <div data-target="#carousel4" data-slide-to="6" class="thumb"><img src="http://joelps.com/masatoshi/assets/img/art__30.jpg"></div>
+                      <div data-target="#carousel4" data-slide-to="7" class="thumb"><img src="http://joelps.com/masatoshi/assets/img/art__31.jpg"></div>
                     </div>
                     <!-- /item -->
                   </div>
                   <!-- /carousel-inner -->
-                   <a class="left carousel-control" href="#thumbcarousel4" role="button" data-slide="prev" onclick="$('#thumbcarousel4').carousel('prev')">
+                   <a class="left carousel-control short" href="#thumbcarousel4" role="button" data-slide="prev" onclick="$('#thumbcarousel4').carousel('prev')">
                     <span class="glyphicon glyphicon-chevron-left"></span>
                   </a>
-                  <a class="right carousel-control" href="#thumbcarousel4" role="button" data-slide="next" onclick="$('#thumbcarousel4').carousel('next')">
+                  <a class="right carousel-control short" href="#thumbcarousel4" role="button" data-slide="next" onclick="$('#thumbcarousel4').carousel('next')">
                     <span class="glyphicon glyphicon-chevron-right"></span>
                   </a>
                 </div>
@@ -472,26 +498,112 @@
         <section id="footer" class="nopadding">
 
           <div class="row footer">
-            <div class="col-xs-12 col-sm-6  col-lg-8 nopadding"></div>
 
-            <div class="col-xs-6  col-lg-4 nopadding"></div>
+            <div class="footer-top">
 
-        </section>
+              <div class="col-sm-6 logowrap">
+                
+                <div class="logo">
+                  <h1 class="mt text-center">MY</h1>
+                </div>
 
-        <!--     FOOTER END -->
+              </div>
 
-        </div>
-        <!--     TOP ROW -->
+              <div class="col-sm-6">
+                  <p class="address">
+                      2-4-3 Azabujyuban<br> 
+                      Minato-ku<br>
+                      Tokyo 106-0045, Japan<br>
+                      <br>
+                      Tel (81-3) 5427 3566<br>
+                      Fax(81-3) 5427 3568<br>
+                  </p>
 
-      </div>
-      <!--   CONTAINER-FLUID END   -->
+                 <div class="social">
+                  <ul>
+                    <a href="#" target="_blank"><li class="fontawesome-envelope mail"></li></a>
+                    <a href="https://www.facebook.com/masatoshi.yamashiro.1" target="_blank"><li class="brandico-facebook fb"></li></a>
+                    <a href="#" target="_blank"><li class="brandico-twitter-bird twt"></li></a>
+                    <!-- <a href="#"><li class="brandico-github gh"></li></a> -->
+                    <a href="#" target="_blank"><li class="brandico-instagram insta"></li></a>
+                    <!-- <a href="#"><li class="brandico-vimeo-rect vim"></li></a> -->
+                    <!-- <a href="#"><li class="brandico-wordpress wp"></li></a> -->
+                  </ul>
+
+                </div><!-- /social -->
+
+              </div> <!-- /col-sm-6 -->
+
+           </div><!-- /footer-top -->
+          
+          <div class="row copycredit">
+
+           <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+             <p class="copy">
+               COPYRIGHT &#169;2016 MASATOSHI YAMASHIRO</p>
+           </div> 
+
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+               <p class="credit"><strong>Web Design by <a href="http://joelps.com" style="color:#ffffff; font-weight:600;" target="_blank">Joel P. Schmidt</a></strong>
+             </p>
+            </div>
+          
+          </div><!-- /copycredit -->
+
+        </div><!-- /row footer -->
+
+        </section><!-- /footer -->
+
+        </div><!-- TOP ROW -->
+
+      </div><!--   CONTAINER-FLUID END   -->
 
 </body>
-    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-<script src='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js'></script>
-<script src='http://joel.ps.com/assets/js/assets/js/nvbrtoggle.js'></script>
+    
+    <script src='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js'></script>
+    
+    <!-- FOR PARALLAX -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/parallax.min.js"></script>
 
-        <script src="js/index.js"></script>
+    <script src="js/index.js"></script>
+
+    <script src="js/featherlight.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/featherlight.gallery.js" type="text/javascript" charset="utf-8"></script>
+    
+    <script src="//code.jquery.com/jquery-latest.js"></script>
+  
+    <script src="//cdn.rawgit.com/noelboss/featherlight/1.4.0/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+    
+    <script src="//cdn.rawgit.com/noelboss/featherlight/1.4.0/release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+    <script>
+      $(document).ready(function(){
+        $('.gallery').featherlightGallery({
+          gallery: {
+            fadeIn: 300,
+            fadeOut: 300
+          },
+          openSpeed:    300,
+          closeSpeed:   300
+        });
+        $('.gallery2').featherlightGallery({
+          gallery: {
+            next: 'next »',
+            previous: '« previous'
+          },
+          variant: 'featherlight-gallery2'
+        });
+      });
+
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//stats.g.doubleclick.net/dc.js','ga');
+
+      ga('create', 'UA-5342062-6', 'noelboss.github.io');
+      ga('send', 'pageview');
+    </script>
 
     
     

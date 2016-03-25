@@ -3,6 +3,138 @@
 	{
 		"selected_items":
 		[
+			[
+				"background",
+				"background-size"
+			],
+			[
+				"m",
+				"max-width"
+			],
+			[
+				"ba",
+				"background-image"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"paddin",
+				"padding-bottom"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"backg",
+				"background"
+			],
+			[
+				"padding",
+				"padding-right"
+			],
+			[
+				"padd",
+				"padding-bottom"
+			],
+			[
+				"margi",
+				"margin-bottom"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"cl",
+				"clear"
+			],
+			[
+				"bor",
+				"border-radius"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"le",
+				"letter-spacing"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"ov",
+				"overflow"
+			],
+			[
+				"thum",
+				"thumbcarousel4"
+			],
+			[
+				"thu",
+				"thumbcarousel3"
+			],
+			[
+				"thumb",
+				"thumbcarousel2"
+			],
+			[
+				"th",
+				"thumbcarousel1"
+			],
+			[
+				"car",
+				"carousel4"
+			],
+			[
+				"carou",
+				"carousel3"
+			]
 		]
 	},
 	"buffers":
@@ -11,18 +143,23 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 22846,
+				"buffer_size": 27105,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"contents": "body {\n  width: 100%;\n  margin:0;\n  padding: 0;\n}\n\n.row {\n  margin: 0;\n  padding: 0;\n}\n\n.container-fluid {\n  margin: 0;\n  padding: 0;\n}\n\n.nopadding {\n   padding: 0 !important;\n   margin: 0 !important;\n}\n\n#bg {\n  background: url(\"http://masatoshiyamashiro.com/img/portfolio1/48.jpg\") no-repeat center center;\n  background-position: -200px 0;\n  background-size: 200%;\n  height: 50vw;\n  margin: 0 auto;\n  padding: 0;\n}\n\n@media (max-width: 900px) {\n  #bg {\n    background-position: -230px -20px;\n    background-size: 340%;\n    height: 100vw;\n  }\n}\n\n.navbar {\n  background-color: rgba(224, 224, 224, 0.5);\n  border: none;\n  width: 100%;\n  padding-left: 20px;\n  position: fixed;\n  z-index: 1000;\n}\n\n@media (min-width: 768px){\n.navbar {\n     border-radius: 4px; \n}\n}\n\n#about {\n  height: 43vw;\n  background-color: #eaeaea;\n}\n\n@media (max-width:990px) {\n  #about {\n    height: 190vw;\n  }\n}\n\n.abouttext {\n  font-size: 1em;\n  line-height: 2.3em;\n}\n\n.abouttextwrap {\n  background-color: #fff;\n  color: #C1C1C1;\n  margin-top: -50%;\n  padding: 35px 35px 35px 45px;\n  position: absolute;\n  z-index: 2;\n  box-shadow: 5px 5px 0px #c6c6c6;\n}\n\n@media (max-width: 992px) {\n  .abouttextwrap {\n    position: static;\n    margin-top: 50px;\n    box-shadow: none;\n    padding: 35px;\n  }\n}\n\n.title {\n  font-size.2em;\n  text-align: center;\n  font-style: italic;\n  background-color: #fff;\n  color: #c6c6c6;\n  padding: 35px;\n}\n\n.bio {\n  margin: 40px 0;\n  padding: 0 12%;\n}\n\n.biotext {\n  color: #C1C1C1;\n  font-family: 'Raleway', sans-serif;\n  padding: 20px;\n  line-height: 2.5em;\n  font-size: 1.2em;\n  text-align: center;\n  \n}\n\n.portrait {\n  padding: 14px;\n  width: 200px;\n  vertical-align: middle;\n  margin: 0 auto;\n}\n\n#masaspic {\n  background: url(http://joelps.com/assets/img/masatoshiportrait.jpg) no-repeat center top;\n  vertical-align: middle;\n  margin-top: 110px;\n  margin-bottom: 30px;\n  margin-right: auto;\n  margin-left: 100px;\n  height: 300px;\n  width: 300px;\n  border: none;\n  border-radius: 200px;\n  background-size: cover;\n}\n\n@media (max-width:900px) {\n  #masaspic {\n    margin-left: auto;\n  }\n}\n\n.rule {\n  width: 50%;\n}\n\n.services {\n  height: 400px;\n  background-color: #fff;\n  /* border: 2px solid; */\n  padding-top: 100px;\n}\n\n.servicebutton {\n  vertical-align: middle;\n}\n\n.services h1 {\n  color: #c6c6c6;\n  font-size: 1.2em;\n  letter-spacing: 1em;\n}\n\n.footer {\n  background-color: #c6c6c6;\n  height: 500px;\n  border-top: 2px solid #9e9e9e;\n}\n\n.spaced {\n  padding-bottom: 0px;\n}\n\n.spaced h1 {\n  font-size: 2em;\n  letter-spacing: 2em;\n  height: 100px;\n  text-align: center;\n  vertical-align: middle;\n  padding-top: 30px;\n  color: #c6c6c6;\n  font-style: italic;\n}\n\n.spaced h2 {\n  font-size: 2em;\n  position: absolute;\n  z-index: 1;\n  font-style: italic;\n  color: #fff;\n  letter-spacing: 1em;\n  z-index: 20;\n  text-align: center;\n  width: 100%;\n}\n\n@media (max-width:990px) {\n  .spaced h1 {\n    font-size: 2em;\n    letter-spacing: 1em;\n    width: 100%;\n    text-alignment: center;\n    padding-top: 30px;\n  }\n  .spaced h2 {\n    font-size: 3em;\n    letter-spacing: .2em;\n    width: 100%;\n    text-alignment: center;\n    position: absolute;\n    z-index: 20;\n  }\n}\n\n\n/* CAROUSEL 2 */\n\n\n/* CSS used here will be applied after bootstrap.css */\n\n.carousel {\n  margin-top: 0;\n}\n\n.item .thumb {\n  width: 25%;\n  cursor: pointer;\n  float: left;\n}\n\n.item .thumb img {\n  width: 100%;\n  margin: 2px;\n}\n\n.item img {\n  width: 100%;\n}\n\n#portrait {}\n\n#footer {\n  width:100%;\n}",
 			"file": "css/style.css",
-			"file_size": 3437,
-			"file_write_time": 1458373361000000,
 			"settings":
 			{
-				"buffer_size": 3440,
+				"buffer_size": 16636,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/parallax.min.js",
+			"settings":
+			{
+				"buffer_size": 6664,
 				"line_ending": "Unix"
 			}
 		}
@@ -51,10 +188,16 @@
 	},
 	"file_history":
 	[
-		"/Users/Joel/Desktop/Projects/masatoshiyamashiro/assets/js/index.js",
+		"/Users/Joel/Downloads/featherlight-1.4.0/src/index.html",
+		"/Users/Joel/Downloads/featherlight-1.4.0/src/gallery.html",
+		"/Users/Joel/Downloads/featherlight-1.4.0/src/featherlight.js",
+		"/Users/Joel/Downloads/featherlight-1.4.0/src/featherlight.gallery.js",
+		"/Users/Joel/Downloads/featherlight-1.4.0/src/featherlight.gallery.css",
+		"/Users/Joel/Downloads/featherlight-1.4.0/src/featherlight.css",
 		"/Users/Joel/Desktop/Projects/masatoshiyamashiro/sftp-config.json",
-		"/Users/Joel/Desktop/Projects/masatoshiyamashiro/assets/css/style.css",
-		"/Users/Joel/Desktop/Projects/masatoshiyamashiro/index.html"
+		"/Users/Joel/Desktop/Projects/masatoshiyamashiro/index.html",
+		"/Users/Joel/Desktop/Projects/masatoshiyamashiro/assets/js/index.js",
+		"/Users/Joel/Desktop/Projects/masatoshiyamashiro/assets/css/style.css"
 	],
 	"find":
 	{
@@ -65,6 +208,7 @@
 		"height": 102.0,
 		"where_history":
 		[
+			"*.css",
 			"*.html",
 			"-*.css",
 			""
@@ -75,6 +219,68 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"portrait",
+			"url",
+			"screen",
+			"cover",
+			"portrait",
+			"#about",
+			"bleed",
+			"ios",
+			"relati",
+			"vw",
+			"work",
+			"99",
+			"}",
+			"work",
+			"relative",
+			"parallax",
+			"dot",
+			"relative",
+			"assets",
+			"  background-position-y: -180px;\n",
+			"about",
+			"relative",
+			"rotate",
+			"a {",
+			"jpg",
+			"about",
+			".carousel-control",
+			"%;\n",
+			"color",
+			"carousel-inner",
+			"servicelink",
+			"scroll",
+			"servicebutton",
+			"scroll",
+			"dropdown",
+			"mail",
+			"nav2",
+			"social",
+			"navtype",
+			"a {",
+			"masatoshi",
+			"masa",
+			"masaspic",
+			"10px",
+			"a href",
+			"thumbcarousel",
+			"carousel",
+			"thumbcarousel",
+			"carousel",
+			"thumbcarousel",
+			"carousel",
+			"/* Styles */",
+			"navbar-brand",
+			"h1",
+			"cdnjs.cloudflare.",
+			"fonts.googleapis.",
+			"nopadding",
+			"centered",
+			"thumbcarousel2",
+			"carousel2",
+			"thumbcarousel1",
+			"carousel1",
 			"biotext",
 			"col-",
 			"thumbcarousel",
@@ -101,6 +307,10 @@
 		"regex": false,
 		"replace_history":
 		[
+			"vh",
+			"#about {height:280vw;}",
+			".about {height:280vw;}",
+			"height:280vw;",
 			"nopadding",
 			"foo",
 			""
@@ -114,7 +324,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -122,15 +332,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 22846,
+						"buffer_size": 27105,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								454,
-								454
+								6353,
+								6353
 							]
 						],
 						"settings":
@@ -153,15 +363,15 @@
 					"file": "css/style.css",
 					"settings":
 					{
-						"buffer_size": 3440,
+						"buffer_size": 16636,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1594,
-								1594
+								16636,
+								16636
 							]
 						],
 						"settings":
@@ -174,7 +384,36 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1975.0,
+						"translation.y": 18849.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "js/parallax.min.js",
+					"settings":
+					{
+						"buffer_size": 6664,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3233,
+								3233
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 32966.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

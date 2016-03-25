@@ -1,3 +1,21 @@
+@import url(http://weloveiconfonts.com/api/?family=brandico|fontawesome|iconicfill);
+
+/* brandico */
+[class*="brandico-"]:before {
+  font-family: 'brandico', sans-serif;
+}
+
+/* fontawesome */
+[class*="fontawesome-"]:before {
+  font-family: 'FontAwesome', sans-serif;
+}
+
+/* iconicfill */
+[class*="iconicfill-"]:before {
+  font-family: 'IconicFill', sans-serif;
+}
+
+
 body {
   width: 100%;
   margin:0;
@@ -17,6 +35,7 @@ body {
 .nopadding {
    padding: 0 !important;
    margin: 0 !important;
+   height: 100% !important;
 }
 
 #bg {
@@ -57,16 +76,139 @@ body {
   font-size: 2em;
 }
 
+@media (max-width: 772px){
+  .navbar-brand {
+  max-width: 70%;
+  font-size: 1.3em;
+  }
+}
+
 .navfont {
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 500;
   font-size: 1.2em;
+  color: #c6c6c6 !important;
+}
+
+ul.nav.navbar-nav.navfont {}
+
+ul.nav.navbar-nav.navfont {}
+
+.navfont :hover {
+  color:#000000 !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent !important;
+}
+.navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 8px;
+    margin-right: 35px !important;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 0px !important;
+}
+
+.dropdown-menu{
+background-color:rgba(224, 224, 224, 0.5);
+border: none;
 }
 
 #about {
-  height: 43vw;
-  background-color: #eaeaea;
-  box-shadow: 0 0 10px 5px #d2d2d2 inset;
+/*  height: 43vw;
+*/  background-color: transparent;
+  /* box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.36) inset; */
+/*  background-image: url(http://masatoshiyamashiro.com/img/works/14.jpg);*/
+  background-size: cover;
+  background-repeat: no-repeat;
+/*  background-position-y: -180px;*/
+  display: inline-block;
+
+}
+
+#work {
+}
+
+@media (max-width: 992px){
+  #work {
+  padding-bottom: 70px;
+  height: 240vh;
+  }
+}
+
+.logo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color:#292929;
+  vertical-align: middle;
+  margin: 80px 0px 0px 62%;
+}
+
+@media (max-width: 992px){
+  .logo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color:#292929;
+  vertical-align: middle;
+  margin: 80px auto;
+}
+}
+
+.logowrap {
+  height:100%;
+}
+
+.mt {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+  vertical-align: middle;
+  text-align: center;
+  color: #454545;
+  padding-top: 50px;
+  font-size: 4em;
+}
+
+.copy {
+  text-align: right;
+  padding-top: 80px;
+  padding-bottom: 30px;
+}
+
+@media (max-width: 770px){
+  .copy {
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 10px;
+  }
+}
+
+.credit {
+  text-align: left;
+  padding-top: 80px;
+  padding-bottom: 30px;
+}
+
+@media (max-width: 770px){
+  .credit {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 30px;
+  }
+}
+
+.copycredit {
+  font-family: 'Roboto', sans-serif;
+  font-size: .75em;
+  letter-spacing: .25em;
+  color: #cfcfcf;
+  margin-top: 0px;
 }
 
 /*===============================================================
@@ -87,7 +229,7 @@ MEDIA QUERY DEVICE BREAKPOINTS
 
 @media only screen and (min-width : 992px) {
 #about {
-height: 66vw;}
+height: 70vw;}
 }
 
 @media only screen and (min-width : 1223px) {
@@ -111,9 +253,9 @@ height: 60vw;}
 height: 90vw;}
 }
 
-@media only screen and (max-width : 950px) {
+@media only screen and (max-width : 955px) {
 #about {
-height: 106vw;}
+height: 105vw;}
 }
 
 @media only screen and (max-width : 830px) {
@@ -121,60 +263,54 @@ height: 106vw;}
 height: 130vw;}
 }
 
+@media only screen and (max-width : 750px) {
+#about {height: auto;}
+}
+
 @media only screen and (max-width : 705px) {
-#about {
-height: 160vw;}
+#about {height: 160vh;}
 }
 
 @media only screen and (max-width : 630px) {
-#about {
-height: 190vw;}
+#about {height: 180vh;}
 }
 
 @media only screen and (max-width : 605px) {
 #about {
-height: 206vw;}
+height: auto;}
 }
 
-@media only screen and (max-width : 510px) {
+@media only screen and (max-width : 533px) {
 #about {
-height: 230vw;}
+height: auto;}
 }
 
-@media only screen and (max-width : 470px) {
+@media only screen and (max-width : 520px) {
 #about {
-height: 260vw;}
+height: auto;}
 }
 
-@media only screen and (max-width : 440px) {
+@media only screen and (max-width : 490px) {
 #about {
-height: 290vw;}
+height: auto;}
+}
+
+@media only screen and (max-width : 460px) {
+#about {
+height: auto;}
+}
+
+@media only screen and (max-width : 450px) {
+#about {height: 225vh;}
 }
 
 @media only screen and (max-width : 420px) {
-#about {
-height: 320vw;}
+#about {height: 520vw;}
 }
-
-
-
-
-
-
-/*@media only screen and (max-width : 1100px) {
-#about {
-height: 66vw;}
-}*/
-
-/*@media only screen and (min-width : 992px) {
-#about {
-height: 66vw;}
-}*/
-
 
 /* Smartphones (portrait) ----------- */
 @media only screen and (max-width : 320px) {
-#about {height:280vw;}
+#about {height:auto;}
 }
 
 /* iPads (portrait and landscape) ----------- */
@@ -203,7 +339,7 @@ iPad 3
 }
 /* Desktops and laptops ----------- */
 @media only screen  and (min-width : 1224px) {
-#about {height:46vw;}
+#about {height: 50vw;}
 }
 
 /* Large screens ----------- */
@@ -270,9 +406,8 @@ iPad 3
 #about {height:280vw;}
 }
 
-@media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
-#about {height:280vw;}
-}
+
+
 
 .abouttext {
   font-size: 1em;
@@ -311,17 +446,36 @@ iPad 3
 
 .bio {
   margin: 40px 0;
-  padding: 0 12%;
+  padding: 0 10%;
+  /* width: 100%; */
+}
+
+@media (max-width: 772px){
+  .bio {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+  
 }
 
 .biotext {
-  color: #aaaaaa;
+  color: #D7D7D7;
   padding: 20px;
   line-height: 2.5em;
   font-size: 1.2em;
   text-align: center;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
+  background-color: rgba(0, 0, 0, 0.38);
+  margin-bottom: 0px;
+}
+
+@media (max-width: 770px){
+  .biotext{
+      font-size: 1.5em;
+  }
 }
 
 .portrait {
@@ -338,18 +492,19 @@ iPad 3
   /* margin-bottom: 30px; */
   /* margin-right: auto; */
   /* margin-left: 100px; */
-  margin: 80px auto;
-  height: 300px;
-  width: 300px;
+  margin: 30% 25% 20% 40%;
+  padding-top:;
+  height: 250px;
+  width: 250px;
   border: none;
   border-radius: 200px;
   background-size: cover;
   background-position: 0px -28px;
 }
 
-@media (max-width:900px) {
+@media (max-width:992px) {
   #masaspic {
-    margin-left: auto;
+    margin: 80px auto;
   }
 }
 
@@ -361,6 +516,11 @@ iPad 3
   width: 50%;
 }
 
+.serviceswrapper {
+  height: 130vw;
+  margin-bottom: 100px;
+}
+
 .services {
   height: 400px;
   background-color: #fff;
@@ -368,8 +528,39 @@ iPad 3
   padding-top: 100px;
 }
 
+@media (max-width: 900px){
+  .services {
+    height: 400px;
+  }
+}
+
 .servicebutton {
   vertical-align: middle;
+  width: 100%;
+}
+
+.servicelink {
+  transition: all 0.25s ease-out;
+}
+
+@media (max-width: 992px){
+  .servicelink {
+    min-width: 28%;
+    height: auto;
+  }
+}
+
+.servicebutton img:hover {
+  transform: scale(1.2);
+  /*transform: rotate(360deg);*/
+}
+
+.services h1:hover {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.5em;
+  color:#ffffff;
+  background-color: #c6c6c6;
 }
 
 .services h1 {
@@ -379,11 +570,36 @@ iPad 3
   font-family: 'Josefin Sans', sans-serif;
 }
 
-.footer {
+@media (max-width: 770px){
+  .services h1 {
+    font-size: 2em;
+  }
+
+  .services h1:hover {
+  color:#ffffff;
+  font-weight: 600;
   background-color: #c6c6c6;
-  height: 500px;
-  border-top: 2px solid #9e9e9e;
+  font-size: 2em;
+  }
 }
+
+.footer {
+  background-color: #454545;
+  height: 20%;
+  border-top: 0px solid #9e9e9e;
+  padding-bottom: 0;
+  box-shadow: 0px 62px 40px -50px #303030 inset;
+}
+
+/*.footer-top {
+  padding-left: 50px;
+}
+
+@media (max-width: 992px){
+  .footer-top {
+    padding-left: 0px;
+  }
+}*/
 
 .spaced {
   padding-bottom: 0px;
@@ -399,6 +615,7 @@ iPad 3
   color: #c6c6c6;
   font-style: italic;
   font-family: 'Josefin Sans', sans-serif;
+  font-weight: 600;
 }
 
 .spaced h2 {
@@ -411,9 +628,11 @@ iPad 3
   text-align: center;
   width: 100%;
   font-family: 'Josefin Sans', sans-serif;
+  background-color: rgba(0, 0, 0, 0.36);
+  padding-top:5px;
 }
 
-@media (max-width:990px) {
+@media (max-width:992px) {
   .spaced h1 {
     font-size: 2em;
     letter-spacing: 1em;
@@ -441,10 +660,15 @@ iPad 3
   margin-top: 0;
 }
 
+.item{
+  height: 450px;
+}
+
 .item .thumb {
   width: 25%;
   cursor: pointer;
   float: left;
+  max-height:150px;
 }
 
 .item .thumb img {
@@ -454,21 +678,78 @@ iPad 3
 
 .item img {
   width: 100%;
+  height:auto;
 }
 
-#portrait {}
+.active {
+  max-height:200px;
+}
+
+.big {
+  height: 580px;
+}
+
+.small {
+  max-height: 160px;
+}
+
+@media (max-width: 900px) {
+  .small {
+  max-height: 94px;
+}
+}
+
+.carousel-control.left.short{
+  height: 35%;
+}
+
+.carousel-control.right.short{
+  height: 35%;
+}
+
+#portrait {
+    height: 100%;
+    display: inline-block;
+}
+
+@media screen and (max-width: 772px){
+  #portrait {
+    margin-top: 10%;
+  }
+}
 
 #footer {
   width:100%;
 }
 
 /*========================VIDEO========================*/
-.banana{
+.banana {
   overflow: hidden;
   height: 60vw;
   margin-top: -130px;
   position: relative;
   z-index: 0;
+}
+
+@media (max-width: 900px) {
+  .banana {
+    height: 80vw;
+    margin-top: -150px;
+  }
+}
+
+@media (max-width: 795px) {
+  .banana {
+    height: 100vw;
+    margin-top: -215px;
+  }
+}
+
+@media (max-width: 500px) {
+  .banana {
+    height: 154vw;
+    margin-top: -286px;
+  }
 }
 
 .flex-video-wrapper {
@@ -509,4 +790,97 @@ height: 100%;
     position: fixed;
     top: 0;
     z-index: 1;
+}
+
+.address {
+  padding: 50px 0 0 0;
+  font-size: 1.2em;
+  letter-spacing: .1em;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400;
+  color: #cfcfcf;
+  line-height: 2em;
+}
+
+@media (max-width: 765px){
+  .address {
+    text-align: center;
+    padding: 0;
+  }
+}
+
+/*===========================SOCIAL NAV===========================*/
+
+div.social {
+  margin: 50px auto 50px auto;
+  width: 100%;
+}
+
+div.social ul {
+  height: 50px;
+  margin: 0px 50px 0px -20px;
+  padding:0px;
+  text-align: left;
+}
+
+@media (max-width: 765px){
+  div.social ul {
+  text-align: center;
+  margin: 0 auto;
+  }
+}
+
+div.social li {
+  display: inline-block;
+  margin: 0px 10px;
+  height: 50px;
+  width: 40px;
+  padding-top: 12px;
+  font-size: 20px;
+  /*color: rgba(255,255,255,0.7);*/
+  color: #CFCFCF;
+  border-radius: 40px;
+  text-align: center;
+}
+
+div.social li:hover{
+  color: rgba(255,255,255,1);
+  transition: 0.7s;
+}
+
+li.mail:hover {background-color:#e35a5a;}
+li.fb:hover {background-color:#3A539B;}
+li.twt:hover {background-color:rgba(52, 152, 219, 1.0);}
+li.gh:hover {background-color:#674172}
+li.insta:hover {background-color:#996633;}
+li.vim:hover {background-color:#03A678;}
+li.wp:hover {background-color:#EB974E;}
+
+#parallax-window {
+  background: transparent;
+  margin-top: 0px;
+  margin-bottom: -50px;
+  padding-top: 50px;
+  background-position: fixed;
+  width: 100%;
+  -webkit-background-size:contain;
+  -moz-background-size:contain;
+  -o-background-size:contain;
+  background-size:contain;
+  display: inline-block;
+}
+
+@media screen (max-width: 990px) {
+  #parallax-window {
+      background-size: contain;
+      background-image: 
+    }
+  }
+
+@media screen and (max-width: 772px) {
+  .backgroundiosfallback {
+      background-image: url(http://joelps.com/masatoshi/assets/img/art__38.jpg);
+      background-size: 300%;
+      height: 100%;
+  }
 }
