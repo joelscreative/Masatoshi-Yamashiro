@@ -42,30 +42,19 @@
 	}
 
 	.featherlight .featherlight-content {
-		/* make content container for positioned elements (close button) */
 		position: relative;
-
-		/* position: centering vertical and horizontal */
-		text-align: left;
-		vertical-align: middle;
-		display: inline-block;
-
-		/* dimensions: cut off images */
-		overflow: auto;
-		padding: 25px 25px 0;
-		border-bottom: 25px solid transparent;
-
-		/* dimensions: handling large content */
-		margin-left: 5%;
-		margin-right: 5%;
-		max-height: 95%;
-
-		/* styling */
-		background: #fff;
-		cursor: auto;
-
-		/* reset white-space wrapping */
-		white-space: normal;
+	    text-align: left;
+	    vertical-align: middle;
+	    display: inline-block;
+	    overflow: initial;
+	    padding: 0;
+	    border-bottom: 25px solid transparent;
+	    margin-left: 5%;
+	    margin-right: 5%;
+	    max-height: 95%;
+	    background: #000;
+	    cursor: auto;
+	    white-space: normal;
 	}
 
 	/* contains the content */
