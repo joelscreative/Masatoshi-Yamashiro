@@ -60,7 +60,7 @@ text-decoration: none !important;
 }
 
 .navbar {
-  background-color: rgba(224, 224, 224, 0.5);
+  background-color: rgba(158, 158, 158, 0.5);
   border: none;
   width: 100%;
   padding-left: 20px;
@@ -91,7 +91,7 @@ text-decoration: none !important;
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 500;
   font-size: 1.2em;
-  color: #c6c6c6 !important;
+  color: #000 !important;
 }
 
 ul.nav.navbar-nav.navfont {}
@@ -99,7 +99,7 @@ ul.nav.navbar-nav.navfont {}
 ul.nav.navbar-nav.navfont {}
 
 .navfont :hover {
-  color:#000000 !important;
+  color:#fff !important;
 }
 
 .navbar-default .navbar-toggle {
@@ -211,8 +211,12 @@ border: none;
   font-family: 'Roboto', sans-serif;
   font-size: .75em;
   letter-spacing: .25em;
-  color: #cfcfcf;
+  color: #242424;
   margin-top: 0px;
+  height: 100px;
+  /* position: relative; */
+  bottom: 0px;
+  display: block;
 }
 
 /*===============================================================
@@ -343,7 +347,7 @@ iPad 3
 }
 /* Desktops and laptops ----------- */
 @media only screen  and (min-width : 1224px) {
-#about {height: 50vw;}
+#about {height: 40vw;}
 }
 
 /* Large screens ----------- */
@@ -466,7 +470,7 @@ iPad 3
 
 .biotext {
   color: #D7D7D7;
-  padding: 20px;
+  padding: 10px 60px;
   line-height: 2.5em;
   font-size: 1.2em;
   text-align: center;
@@ -560,9 +564,10 @@ iPad 3
 }
 
 .services h1:hover {
+  transition: all 0.5s ease-out;
   text-decoration: none;
-  font-weight: 600;
-  font-size: 1.5em;
+  /*font-weight: 600;*/
+  transform: scale: (1.5);
   color:#ffffff;
   background-color: #c6c6c6;
 }
@@ -570,9 +575,11 @@ iPad 3
 .services h1 {
   color: #c6c6c6;
   font-size: 1.4em;
+  font-weight: 600;
   letter-spacing: 1em;
   font-family: 'Josefin Sans', sans-serif;
 }
+
 
 @media (max-width: 770px){
   .services h1 {
@@ -592,18 +599,18 @@ iPad 3
   height: 20%;
   border-top: 0px solid #9e9e9e;
   padding-bottom: 0;
-  box-shadow: 0px 62px 40px -50px #303030 inset;
+  /*box-shadow: 0px 62px 40px -50px #303030 inset;*/
 }
 
-/*.footer-top {
-  padding-left: 50px;
+.footer-top {
+  height: 100%;
 }
 
 @media (max-width: 992px){
   .footer-top {
     padding-left: 0px;
   }
-}*/
+}
 
 .spaced {
   padding-bottom: 0px;
@@ -616,10 +623,16 @@ iPad 3
   text-align: center;
   vertical-align: middle;
   padding-top: 30px;
-  color: #c6c6c6;
+  color: #F9F9F9;
   font-style: italic;
   font-family: 'Josefin Sans', sans-serif;
-  font-weight: 600;
+  font-weight: 600;  
+  background: #ffffff; /* Old browsers */
+  background: -moz-linear-gradient(left, #ffffff 10%, #d3d3d3 51%, #ffffff 90%, #ffffff 90%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #ffffff 10%,#d3d3d3 51%,#ffffff 90%,#ffffff 90%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #ffffff 10%,#d3d3d3 51%,#ffffff 90%,#ffffff 90%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 */
+  text-shadow: 2px 2px #dadada;
 }
 
 .spaced h2 {
@@ -815,7 +828,7 @@ height: 100%;
   letter-spacing: .1em;
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 400;
-  color: #cfcfcf;
+  color: #242424;
   line-height: 2em;
 }
 
@@ -854,8 +867,8 @@ div.social li {
   width: 50px;
   padding-top: 12px;
   font-size: 20px;
-  /*color: rgba(255,255,255,0.7);*/
-  color: #CFCFCF;
+  /* color: rgba(255,255,255,0.7); */
+  color: #252525;
   border-radius: 40px;
   text-align: center;
 }
@@ -877,7 +890,8 @@ li.wp:hover {background-color:#EB974E;}
   background: transparent;
   margin-top: 0px;
   margin-bottom: -50px;
-  padding-top: 50px;
+  padding-top: 0px;
+  background-attachment: fixed;
   background-position: fixed;
   width: 100%;
   -webkit-background-size:contain;

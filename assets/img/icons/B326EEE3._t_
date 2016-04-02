@@ -6,12 +6,12 @@
 	 xml:space="preserve">
 <g>
 	
-		<polygon fill="none" stroke="#D3D3D3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		<polygon fill="none" stroke="#C6C6C5" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
 		14.701,115.302 65.285,27.685 115.871,115.302 	"/>
 	
-		<polygon fill="none" stroke="#D3D3D3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
-		45.61,133.781 96.195,46.166 146.779,133.781 	"/>
+		<polygon fill="none" stroke="#C6C6C5" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		45.61,133.782 96.195,46.166 146.779,133.782 	"/>
 	
-		<line fill="none" stroke="#D3D3D3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="146.779" y1="133.25" x2="40.66" y2="69.744"/>
+		<line fill="none" stroke="#C6C6C5" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="146.779" y1="133.25" x2="40.66" y2="69.744"/>
 </g>
 </svg>
