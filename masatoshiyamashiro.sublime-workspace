@@ -140,18 +140,18 @@
 	"buffers":
 	[
 		{
-			"file": "index.html",
-			"settings":
-			{
-				"buffer_size": 29288,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "js/featherlight.js",
 			"settings":
 			{
 				"buffer_size": 20654,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 29308,
 				"line_ending": "Unix"
 			}
 		},
@@ -183,7 +183,7 @@
 			"file": "css/style.css",
 			"settings":
 			{
-				"buffer_size": 17803,
+				"buffer_size": 17808,
 				"line_ending": "Unix"
 			}
 		},
@@ -220,6 +220,8 @@
 	},
 	"file_history":
 	[
+		"/Users/Joel/Desktop/Projects/masatoshiyamashiro/index.html",
+		"/Users/Joel/Library/Application Support/Sublime Text 2/Packages/User/sftp_servers/joelps",
 		"/Users/Joel/Downloads/featherlight-1.4.0/src/index.html",
 		"/Users/Joel/Downloads/featherlight-1.4.0/src/gallery.html",
 		"/Users/Joel/Downloads/featherlight-1.4.0/src/featherlight.js",
@@ -227,7 +229,6 @@
 		"/Users/Joel/Downloads/featherlight-1.4.0/src/featherlight.gallery.css",
 		"/Users/Joel/Downloads/featherlight-1.4.0/src/featherlight.css",
 		"/Users/Joel/Desktop/Projects/masatoshiyamashiro/sftp-config.json",
-		"/Users/Joel/Desktop/Projects/masatoshiyamashiro/index.html",
 		"/Users/Joel/Desktop/Projects/masatoshiyamashiro/assets/js/index.js",
 		"/Users/Joel/Desktop/Projects/masatoshiyamashiro/assets/css/style.css"
 	],
@@ -251,6 +252,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"about",
+			"carousel-inner",
 			"portrait",
 			"url",
 			"screen",
@@ -356,42 +359,11 @@
 	"groups":
 	[
 		{
-			"selected": 5,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "index.html",
-					"settings":
-					{
-						"buffer_size": 29288,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 5977.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
 					"file": "js/featherlight.js",
 					"settings":
 					{
@@ -416,6 +388,37 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 29308,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								23463,
+								23468
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 14163.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -515,15 +518,15 @@
 					"file": "css/style.css",
 					"settings":
 					{
-						"buffer_size": 17803,
+						"buffer_size": 17808,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								11970,
-								11970
+								9846,
+								9846
 							]
 						],
 						"settings":
@@ -536,7 +539,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 12844.0,
+						"translation.y": 10276.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
