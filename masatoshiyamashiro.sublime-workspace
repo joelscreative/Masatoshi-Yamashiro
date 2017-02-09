@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"back",
+				"background-position"
+			],
+			[
+				"bac",
+				"background-size"
+			],
+			[
 				"background",
 				"background-size"
 			],
@@ -140,7 +148,7 @@
 	"buffers":
 	[
 		{
-			"file": "js/featherlight.js",
+			"file": "/Users/Joel/Desktop/Projects/JoelPS/assets/js/featherlight.js",
 			"settings":
 			{
 				"buffer_size": 20654,
@@ -151,31 +159,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 29308,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "css/featherlight.css",
-			"settings":
-			{
-				"buffer_size": 2631,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "js/featherlight.gallery.js",
-			"settings":
-			{
-				"buffer_size": 5336,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "css/featherlight.gallery.css",
-			"settings":
-			{
-				"buffer_size": 2113,
+				"buffer_size": 29411,
 				"line_ending": "Unix"
 			}
 		},
@@ -183,7 +167,31 @@
 			"file": "css/style.css",
 			"settings":
 			{
-				"buffer_size": 17808,
+				"buffer_size": 18289,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/Joel/Desktop/Projects/JoelPS/assets/css/featherlight.css",
+			"settings":
+			{
+				"buffer_size": 2631,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/Joel/Desktop/Projects/JoelPS/assets/js/featherlight.gallery.js",
+			"settings":
+			{
+				"buffer_size": 5336,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/Joel/Desktop/Projects/JoelPS/assets/css/featherlight.gallery.css",
+			"settings":
+			{
+				"buffer_size": 2113,
 				"line_ending": "Unix"
 			}
 		},
@@ -191,7 +199,7 @@
 			"file": "js/parallax.min.js",
 			"settings":
 			{
-				"buffer_size": 6665,
+				"buffer_size": 6664,
 				"line_ending": "Unix"
 			}
 		}
@@ -252,6 +260,12 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"rule",
+			"position",
+			"backgroundio",
+			"transi",
+			"trans",
+			"no-padding",
 			"about",
 			"carousel-inner",
 			"portrait",
@@ -359,12 +373,12 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "js/featherlight.js",
+					"file": "/Users/Joel/Desktop/Projects/JoelPS/assets/js/featherlight.js",
 					"settings":
 					{
 						"buffer_size": 20654,
@@ -397,15 +411,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 29308,
+						"buffer_size": 29411,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								23463,
-								23468
+								26071,
+								26071
 							]
 						],
 						"settings":
@@ -418,14 +432,45 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 14163.0,
+						"translation.y": 10655.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "css/featherlight.css",
+					"file": "css/style.css",
+					"settings":
+					{
+						"buffer_size": 18289,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								16326,
+								16326
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 15741.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Users/Joel/Desktop/Projects/JoelPS/assets/css/featherlight.css",
 					"settings":
 					{
 						"buffer_size": 2631,
@@ -448,14 +493,14 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 815.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "js/featherlight.gallery.js",
+					"buffer": 4,
+					"file": "/Users/Joel/Desktop/Projects/JoelPS/assets/js/featherlight.gallery.js",
 					"settings":
 					{
 						"buffer_size": 5336,
@@ -478,14 +523,14 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1378.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "css/featherlight.gallery.css",
+					"buffer": 5,
+					"file": "/Users/Joel/Desktop/Projects/JoelPS/assets/css/featherlight.gallery.css",
 					"settings":
 					{
 						"buffer_size": 2113,
@@ -514,50 +559,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
-					"file": "css/style.css",
-					"settings":
-					{
-						"buffer_size": 17808,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								9846,
-								9846
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 10276.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
 					"buffer": 6,
 					"file": "js/parallax.min.js",
 					"settings":
 					{
-						"buffer_size": 6665,
+						"buffer_size": 6664,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								1885,
+								1885
 							]
 						],
 						"settings":
@@ -567,7 +581,7 @@
 							"synced": false,
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 						},
-						"translation.x": 29226.0,
+						"translation.x": 15318.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},

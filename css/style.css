@@ -1,4 +1,4 @@
-@import url(http://weloveiconfonts.com/api/?family=brandico|fontawesome|iconicfill);
+@import url('http://weloveiconfonts.com/api/?family=brandico|fontawesome|iconicfill');
 
 /* brandico */
 [class*="brandico-"]:before {
@@ -37,13 +37,13 @@ text-decoration: none !important;
 }
 
 .nopadding {
-   padding: 0 !important;
-   margin: 0 !important;
+   padding: 0 0 0 0 !important;
+   margin: 0 0 0 0 !important;
    height: 100% !important;
 }
 
 #bg {
-  background: url("http://masatoshiyamashiro.com/img/portfolio1/48.jpg") no-repeat center center;
+  background: url("http://www.joelps.com/masatoshi/asssets/img/portfolio1/48.jpg") no-repeat center center;
   background-position: -220px 0;
   background-size: 200%;
   height: 50vw;
@@ -127,7 +127,7 @@ border: none;
 /*  height: 43vw;
 */  background-color: transparent;
   /* box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.36) inset; */
-/*  background-image: url(http://masatoshiyamashiro.com/img/works/14.jpg);*/
+/*  background-image: url(http://www.joelps.com/masatoshi/asssets/img/works/14.jpg);*/
   background-size: cover;
   background-repeat: no-repeat;
 /*  background-position-y: -180px;*/
@@ -218,6 +218,22 @@ border: none;
   bottom: 0px;
   display: block;
 }
+
+.row.backgroundiosfallback {
+    padding-top: 5rem;
+}
+
+.aboutblock {
+  height: 112%;
+  background-image: url(http://joelps.com/masatoshi/assets/img/art__38.jpg);
+  background-size: cover;
+}
+
+div#thumbcarousel3,#thumbcarousel4 {
+    margin-top: -17rem;
+}
+
+
 
 /*===============================================================
 MEDIA QUERY DEVICE BREAKPOINTS
@@ -347,7 +363,7 @@ iPad 3
 }
 /* Desktops and laptops ----------- */
 @media only screen  and (min-width : 1224px) {
-#about {height: 40vw;}
+#about {height: 31vw;margin: 0;padding: 0;}
 }
 
 /* Large screens ----------- */
@@ -379,7 +395,10 @@ iPad 3
 }
 
 @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
-#about {height:280vw;}
+#about {height: 390vw;}
+div#thumbcarousel3, #thumbcarousel4 {
+    margin-top: -35rem;
+}
 }
 
 /* iPhone 6+ ----------- */
@@ -389,6 +408,9 @@ iPad 3
 
 @media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
 #about {height:280vw;}
+div#thumbcarousel3, #thumbcarousel4 {
+    margin-top: -35rem;
+}
 }
 
 /* Samsung Galaxy S3 ----------- */
@@ -453,8 +475,8 @@ iPad 3
 }
 
 .bio {
-  margin: 40px 0;
-  padding: 0 10%;
+  margin: 2rem 0;
+  padding: 0 6%;
   /* width: 100%; */
 }
 
@@ -494,13 +516,13 @@ iPad 3
 }
 
 #masaspic {
-  background: url(http://w-portrait.com/wp-content/uploads/2014/09/masa_l.jpg) no-repeat center top;
+  background: url(http://joelps.com/masatoshi/assets/img/masa_l.jpg) no-repeat center top;
   vertical-align: middle;
   /* margin-top: 110px; */
   /* margin-bottom: 30px; */
   /* margin-right: auto; */
   /* margin-left: 100px; */
-  margin: 30% 25% 20% 40%;
+  margin: 20% 25% 20% 40%;
   padding-top:;
   height: 250px;
   width: 250px;
@@ -613,7 +635,7 @@ iPad 3
 }
 
 .spaced {
-  padding-bottom: 0px;
+  padding-bottom: 22rem;
 }
 
 .spaced h1 {
@@ -750,12 +772,14 @@ iPad 3
 
 #footer {
   width:100%;
+  position: relative;
+  top: 3rem;
 }
 
 /*========================VIDEO========================*/
 .banana {
   overflow: hidden;
-  height: 60vw;
+  height: 133vh;
   margin-top: -130px;
   position: relative;
   z-index: 0;
@@ -788,16 +812,9 @@ iPad 3
   margin-top:-50px;
 }
 
-.flex-video {
-position: relative;
-padding-top: 25px;
-padding-bottom: 67.5%;
-height: 850px;
-margin-bottom: 16px;
-overflow: hidden;
-}
+.flex-video {position: relative;padding-top: 25px;padding-bottom: 67.5%;height: 1rem;margin-bottom: 16px;overflow: hidden;}
  
-.flex-video.widescreen { padding-bottom: 57.25%; }
+.flex-video.widescreen {/* padding-bottom: 57.25%; */}
 .flex-video.vimeo { padding-top: 0; }
  
 .flex-video iframe,
@@ -814,10 +831,10 @@ height: 100%;
 }
 
 #dot-matrix {
-    background: url(http://s14.directupload.net/images/111129/44ga9qid.png);
-    height: 100%;
+    background: url('http://s14.directupload.net/images/111129/44ga9qid.png');
+    height: 80rem;
     width: 100%;
-    position: fixed;
+    position: relative;
     top: 0;
     z-index: 1;
 }
@@ -888,9 +905,9 @@ li.wp:hover {background-color:#EB974E;}
 
 #parallax-window {
   background: transparent;
-  margin-top: 0px;
+  margin-top: -20px;
   margin-bottom: -50px;
-  padding-top: 0px;
+  padding-top: 0;
   background-attachment: fixed;
   background-position: fixed;
   width: 100%;
@@ -898,7 +915,8 @@ li.wp:hover {background-color:#EB974E;}
   -moz-background-size:contain;
   -o-background-size:contain;
   background-size:contain;
-  display: inline-block;
+  /* display: inline-block; */
+  height: 100%;
 }
 
 @media screen (max-width: 990px) {
@@ -910,7 +928,7 @@ li.wp:hover {background-color:#EB974E;}
 
 @media screen and (max-width: 772px) {
   .backgroundiosfallback {
-      background-image: url(http://joelps.com/masatoshi/assets/img/art__38.jpg);
+      background-image: url('http://joelps.com/masatoshi/assets/img/art__38.jpg');
       background-size: 300%;
       height: 100%;
   }
